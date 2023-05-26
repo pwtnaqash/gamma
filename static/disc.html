@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> dashboard</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="../css/disc.css">
+
+    <!-- fontawsome -->
+    <script src="https://kit.fontawesome.com/6286729677.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- font faimly -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;1,200&display=swap"
+        rel="stylesheet">
+
+         <!-- bootstrap cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</head>
+
+
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row mt-4" >
+            <div class="col" id="inner-view">
+                <div>
+                    <img id="imgBox" src="../images/dumbbell.png" style="padding: 0rem 1rem;" alt="">
+
+                    <div class="row" id="small_img_productView">
+
+                        <div class="col-md-2">
+                            <img src="../images/dumbbell.png" alt="" onclick="myFunction(this)">
+                        </div>
+
+                        <div class="col-md-2">
+                            <img src="../images/larki.png" alt="" onclick="myFunction(this)">
+                        </div>
+
+                        <div class="col-md-2">
+                            <img src="../images/logo.jpg" alt="" onclick="myFunction(this)">
+                        </div>
+
+                        <div class="col-md-2">
+                            <img src="../images/rack.png" alt="" onclick="myFunction(this)" >
+                        </div>
+
+                        <div class="col-md-2">
+                            <img src="../images/slide1.jpg" alt="" onclick="myFunction(this)" >
+                        </div>
+
+                        <div class="col-md-2">
+                            <img src="../images/rack.png" alt="" onclick="myFunction(this)" >
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col" id="main-right_product">
+                <div>
+                    <div id="main-right_product_inner">
+                        <div id="main-right_product_inner_icon">
+                            <h2>AKG N20U Premium In-Ear Headphones</h2>
+                        
+                        <div class="dropdown">
+                            <i class="fa-solid fa-arrow-up-from-bracket" 
+                        class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"
+                        ></i>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                              <li style="align-items: center;"><a class="dropdown-item" href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#"><i class="fa-brands fa-pinterest"></i> Pinterest</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#"><i class="fa-solid fa-envelope"></i> Email</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#"><i class="fa-regular fa-copyright"></i> Copyright</a></li>
+                            
+                            </ul>
+                          </div>
+                        </div>
+                        <div id="product_AKG">
+                            <a href="">SKU </a>
+                            | <p>488421-N20-BL</p>
+                        </div>
+                        <div id="product_media">
+                            <div class="rating-product">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                3 reviews
+                            </div>
+                            <div id="product_media_i">
+                                <!-- <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-pinterest"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-solid fa-envelope"></i> -->
+
+                                <a href="">check related products</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="inner_discription">
+                        <div id="inerr_Product_AKG_set">
+                            <span href="" style="color: maroon;margin-top: 0.6rem;">-20% </span>
+                            <p style="font-size: 1.6rem;font-weight: 600;">7999/-</p>
+                        </div>
+
+                        <div id="inerr_Product_AKG_set">
+                            <span href="">MRP : </span>
+                            <p style="text-decoration:line-through;"> $12999</p>
+                        </div>
+
+                        <div id="inerr_Product_AKG_set">
+                            <p href="">Inclusive of all taxes </p>
+                            <p></p>
+                        </div>
+
+                        <div id="inerr_Product_AKG_set2">
+                            <p><i class="fa-solid fa-heart" style="color: rgb(238, 61, 61);font-size: 1.2rem;"></i> add to wish lsit</p>
+                            <a href="">request for business work</a>
+                        </div>
+
+                        <div class="mt-2" id="inerr_Product_AKG_set">
+                            <span href="">size </span>
+                            
+
+                            <div class="" id="">
+                                    <div type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1"
+                                        aria-expanded="false" aria-controls="collapseExample1">
+                                        <div id="">
+                                            <span>2.5 kg <i id="varient_product" class="fa-solid fa-caret-down"></i> </span>
+                                            
+                                        </div>
+            
+                                        <div class="collapse" id="collapseExample1">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="product_title">
+                                                        <p>5 kg pair</p>
+                                                        <h6>$7999</h6>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-4">
+                                                    <div class="product_title">
+                                                        <p>5 kg pair</p>
+                                                        <h6>$7999</h6>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-4">
+                                                    <div class="product_title">
+                                                        <p>5 kg pair</p>
+                                                        <h6>$7999</h6>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-4">
+                                                    <div class="product_title">
+                                                        <p>5 kg pair</p>
+                                                        <h6>$7999</h6>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-4">
+                                                    <a href="./Gamma.html" style="text-decoration: none;color: black;">
+                                                        <div class="product_title">
+                                                            <p>5 kg pair</p>
+                                                            <h6>$7999</h6>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                    </div>
+            
+            
+            
+            
+                            </div>
+                        </div>
+
+
+                        <!-- icon session -->
+
+                        <div id="iconsession">
+                            <div id="iconsession-inner">
+                                <i class="fa-solid fa-truck fa-beat-fade"></i>
+                                <br>
+                                <a href="">Free Delivery</a>
+                            </div>
+                            <div id="iconsession-inner">
+                                <i class="fa-regular fa-circle-check"></i>
+                                <br>
+                                <a href="">2 yr warranty</a>
+                            </div>
+                            <div id="iconsession-inner">
+                                <i class="fa-solid fa-gear fa-spin"></i>
+                                <br>
+                                <a href="">installation</a>
+                            </div>
+                            <div id="iconsession-inner">
+                                <i class="fa-solid fa-screwdriver-wrench"></i>
+                                <br>
+                                <a href="">buy on EMI</a>
+                            </div>
+                        </div>
+
+                        <div class="mt-3" id="inerr_Product_AKG_set">
+                            <a href="">brand : </a>
+                            <p> GAMMA FITNESS </p>
+                        </div>
+
+                        <div id="inerr_Product_AKG_set">
+                            <a href="">color : </a>
+                            <p> Neon & Black </p>
+                        </div>
+
+                        <div id="inerr_Product_AKG_set">
+                            <a href="">Material : </a>
+                            <p>Alloy Steel, Rubber</p>
+                        </div>
+
+                        <div id="inerr_Product_AKG_set">
+                            <a href="">Special Feature	 : </a>
+                            <p>Non Slip</p>
+                        </div>
+
+                        <div id="inerr_Product_AKG_set">
+                            <a href="">Product Dimensions	 : </a>
+                            <p>30L x 10W Centimeters</p>
+                        </div>
+
+                        <div id="inerr_Product_AKG_set_discription">
+                            <ul>
+                                <li>Inside Box : Package contains pair of the selected quantity</li>
+                                <li>Material : Dumbbells are manufactured with high grade 1st quality rubber and steel which makes it fit for commercial use and keeps it smell free</li>
+                                <li>Design : The premium finishing and elegant design is the USP of this product. The dumbbell looks very classy and feels amazing while using.</li>
+                                <li>Handle : Ergonomically designed and integrated with proper knurling the handle provides great grip and feels professional</li>
+                                <li>Colour : Neon and Black Combination.</li>
+                            </ul>
+                        </div>
+
+                        <div id="main_bussness">
+                            <p>if you need a business qoute <a href="">Please click here</a></p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 col col">
+                <div id="inner_product_disc_col2">
+                    <h6>$9777</h6>
+                    <div id="inner_product_disc_col2_text">
+                        <p><a href="">FREE delivery</a> <b>Monday, 1 May.</b> <a href="">Details</a></p>
+                    </div>
+
+                    <div id="inner_product_disc_col2_text">
+                        <p>Select delivery location</p>
+                    </div>
+
+                    <div id="inner_product_disc_col2_text">
+                        <h6>In stock</h6>
+                        <p>Sold by <a href="">GAMMA FITNESS INDUSTRIES</a> and Delivered by Amazon.</p>
+                    </div>
+
+                    <div>
+                        <label for="">Quantity:</label>
+                        <select name="" id="">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                        </select>
+                    </div>
+
+                    <div id="inner_product_disc_col2_btn">
+                        <button>add to cart </button>
+                        <button style="background-color:maroon ;">buy now</button>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+
+            <div class="container-fluid" id="inner_Product_blog">
+                <h2>Buy it with</h2>
+
+                <div class="row">
+                    <div class="main_bussness_Product" >
+                        <div id="inner_blog_product">
+                            <img style="width: 100%;height: 20vh;" src="../images/dumbbell.png" alt="">
+                        <div class="title_product">
+                            <p>
+                                <b>This item:</b> Gamma Fitness 2.5 Kg x 2 Pc Rubber Coated Premium Dumbbell For Home Gym or
+                            </p>
+                            <h4>$9777</h4>
+                        </div>
+                        </div>
+                        <div style="font-size: 3rem;margin-top: 7rem;">
+                            +
+                        </div>
+                        <div id="inner_blog_product">
+                            <img style="width: 100%;height: 20vh;" src="../images/dumbbell.png" alt="">
+                        <div class="title_product">
+                            <p>
+                                <b>This item:</b> Gamma Fitness 2.5 Kg x 2 Pc Rubber Coated Premium Dumbbell For Home Gym or
+                            </p>
+                            <h4>$9777</h4>
+                        </div>
+                        </div>
+                        <div style="font-size: 3rem;margin-top: 7rem;">
+                            +
+                        </div>
+
+                        <div id="inner_blog_product">
+                            <img style="width: 100%;height: 20vh;" src="../images/dumbbell.png" alt="">
+                        <div class="title_product">
+                            <p>
+                                <b>This item:</b> Gamma Fitness 2.5 Kg x 2 Pc Rubber Coated Premium Dumbbell For Home Gym or
+                            </p>
+                            <h4>$9777</h4>
+                        </div>
+                        </div>
+
+                        <div id="inner_blog_product2">
+                            <div style="padding: 3rem;">
+                                <p>Total price: <b>₹8,798.00</b></p>
+                                <button style="background-color: rgb(238, 187, 19);border: none;padding: 0.1rem 3rem;border-radius: 0.5rem;">Add all three to cart</button>
+                                <br>
+                                <span style="font-size:0.7rem ;">
+                                    These items are dispatched from and sold by different sellers.
+                                    <br>
+                                    <a href="">Show details</a>
+                                </span>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    
+                </div>
+
+                <div id="main_inner_product_blog">
+                    <div class="row" style="text-align: start;" >
+                        <h2>Get instant recommendations</h2>
+                        <div class="col-md-6 col-lg-3 col-xl-2">
+                            <div id="inner_blog_product1">
+                                <img style="width: 100%;padding: 1rem;" src="../images/dumbbell.png" alt="">
+                               <div id="inner_blog_product_start">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                               </div>
+                               <div >
+                                  <button style="background-color: brown;border: none;
+                                  padding: 0rem 0.6rem;color: white;text-transform: capitalize;font-size: 0.7rem;">deal of the day</button>
+                               </div>
+                               <div style="display: flex;">
+                                <p><b>2,288</b></p>
+                                <p style="margin-left: 0.6rem;font-size: 0.8rem;margin-top: 0.2rem;">M.R.P : <span style="text-decoration: line-through;">9,9000</span></p>
+                               </div>
+
+                               <button id="inner_blog_product_btn">See more like this</button>
+                            </div>
+                            <div>
+
+                            </div>
+                           
+                        </div>
+
+                        <div class="col-md-6 col-lg-3 col-xl-2">
+                            <div id="inner_blog_product1">
+                                <img style="width: 100%;padding: 1rem;" src="../images/dumbbell.png" alt="">
+                               <div id="inner_blog_product_start">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                               </div>
+                               <div >
+                                  <button style="background-color: brown;border: none;
+                                  padding: 0rem 0.6rem;color: white;text-transform: capitalize;font-size: 0.7rem;">deal of the day</button>
+                               </div>
+                               <div style="display: flex;">
+                                <p><b>2,288</b></p>
+                                <p style="margin-left: 0.6rem;font-size: 0.8rem;margin-top: 0.2rem;">M.R.P : <span style="text-decoration: line-through;">9,9000</span></p>
+                               </div>
+
+                               <button id="inner_blog_product_btn">See more like this</button>
+                            </div>
+                            <div>
+
+                            </div>
+                           
+                        </div>
+
+
+                        
+
+
+
+                    </div>
+
+                    <button id="inner_blog_product_btn_more">show more</button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        let  myFunction = (smallImg) => {
+           let FullImg = document.getElementById("imgBox");
+           FullImg.src = smallImg.src
+        }
+
+
+</script>
+
+
+</body>
+
+</html>

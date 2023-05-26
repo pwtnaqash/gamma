@@ -1,0 +1,98 @@
+.hover-popup {
+    display: none;
+    /* position: absolute; */
+    top: 70%;
+    /* left: 30; */
+    right: 0;
+    margin-right: 10px;
+    /* margin-top: 0.7rem; */
+    z-index: 1 !important;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .15);
+    transition: all 0.3s ease-in-out;
+    width: 20% !important;
+    position: absolute;
+}
+
+.hover-area{
+    /* background-color: red; */
+    width: 5%;
+    /* position: relative; */
+    z-index: 11 !important;
+}
+.hover-area:hover .hover-popup {
+    display: block !important;
+}
+
+section{
+    text-align: center;
+}
+#first_Div{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    text-transform: capitalize;
+    border-bottom: 1px solid silver;
+    padding: 0.8rem;
+}
+
+.total{
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    text-transform: capitalize;
+    padding: 0.8rem;
+}
+
+#btn_check{
+    padding: 0.6rem 2rem;
+    border: 1px solid silver;
+    margin:2rem 0rem 1rem 0rem !important;
+    cursor: pointer;
+}
+#btn_check:hover{
+    border: 1px solid rgb(222, 191, 16);
+    color:  rgb(222, 191, 16);
+    background-color: black;
+}
+#cross_btn{
+    cursor: pointer;
+    padding: 0.4rem 0.6rem !important;
+}
+#cross_btn:hover{
+    border: 1px solid rgb(222, 191, 16);
+    padding: 0.4rem 0.6rem !important;
+    border-radius: 3rem !important;
+    color:  rgb(222, 191, 16);
+}
+
+#setimg{
+    /* background-color: rgb(222, 191, 16); */
+    width: 30%;
+}
+#setimg img{
+    width: 100%;
+}
+#hover_btn{
+    display: flex;
+    justify-content: space-between;
+}
+#hover_btn button{
+    padding: 0.3rem 1rem;
+    border-radius: 0.4rem;
+    text-transform: capitalize;
+    background-color:green;
+    color: white;
+}
+#hover_btn a{
+    text-decoration: none;
+    color:  white;
+}

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> dashboard</title>
+
+    <!-- bootstarp -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="../css/doashbord.css">
+
+    <!-- fontawsome -->
+    <script src="https://kit.fontawesome.com/6286729677.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- font faimly -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;1,200&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2" id="thre_col_main">
+                <div id="thre_col_main_inner">
+                    <div class="img_logo">
+                        <!-- <img src="./images/dashbord/sunlogo.png" alt=""> -->
+                        <i class="fa-solid fa-sun"></i>
+                    </div>
+    
+                    <div class="user_logo">
+                        <img src="./images/dashbord/user_logo.jpg" alt="">
+                        <h2>super admin</h2>
+                        <i class="fa-sharp fa-regular fa-circle-dot"></i>
+                    </div>
+    
+                    <!-- main Dropdown start left -->
+                    <div id="main_left_side">
+                        <div id="accordion">
+                            <div class="card1">
+                                <div class="card-header" id="headingThree">
+                                    <button class="collapsed" data-toggle="collapse" data-target="#collapseThree1"
+                                        aria-expanded="false" aria-controls="collapseThree1">
+                                        <span><i class="fa-solid fa-house"></i>  dashboard</span>
+                                    </button>
+                                </div>
+                                <div id="collapseThree1" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordion">
+                                    <!-- <div class="card-body">
+                                        <a href="">home</a>
+                                        <a href="">home</a>
+                                        <a href="">home</a>
+                                        <a href="">home</a>
+                                    </div> -->
+                                </div>
+                            </div>
+    
+                            <div class="card1">
+                                <div class="card-header" id="headingThree">
+                                    <button class="collapsed" data-toggle="collapse" data-target="#collapseThree2"
+                                        aria-expanded="false" aria-controls="collapseThree2">
+                                        <span><i class="fa-solid fa-computer"></i> sales</span>
+                                    </button>
+                                </div>
+                                <div id="collapseThree2" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <a href="">add new sales</a>
+                                        <a href="">manage sales</a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card1">
+                                <div class="card-header" id="headingThree">
+                                    <button class="collapsed" data-toggle="collapse" data-target="#collapseThree3"
+                                        aria-expanded="false" aria-controls="collapseThree3">
+                                        <span><i class="fa-solid fa-van-shuttle"></i> order</span>
+                                    </button>
+                                </div>
+                                <div id="collapseThree3" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <a href="">add new order</a>
+                                        <a href="">manage order</a>
+                                        <a href="">delete order</a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card1">
+                                <div class="card-header" id="headingThree">
+                                    <button class="collapsed" data-toggle="collapse" data-target="#collapseThree4"
+                                        aria-expanded="false" aria-controls="collapseThree4">
+                                        <span><i class="fa-solid fa-briefcase"></i> product</span>
+                                    </button>
+                                </div>
+                                <div id="collapseThree4" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <a href="">add new product</a>
+                                        <a href="">manage product</a>
+                                        <a href="">delete product</a>
+                                        <a href="">replace product</a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card1">
+                                <div class="card-header" id="headingThree">
+                                    <button class="collapsed" data-toggle="collapse" data-target="#collapseThree5"
+                                        aria-expanded="false" aria-controls="collapseThree5">
+                                        <span><i class="fa-solid fa-handshake"></i> customer</span>
+                                    </button>
+                                </div>
+                                <div id="collapseThree5" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <a href="">customer detail</a>
+                                        <a href="">customer number</a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="card1">
+                                <div class="card-header" id="headingThree">
+                                    <button class="collapsed" data-toggle="collapse" data-target="#collapseThree6"
+                                        aria-expanded="false" aria-controls="collapseThree6">
+                                        <span><i class="fa-solid fa-user"></i> supplier</span>
+                                    </button>
+                                </div>
+                                <div id="collapseThree6" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <a href="">supplier data</a>
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+    
+    
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-10" id="main_right_side">
+                <!-- first nav -->
+                <div class="row" id="inner_right">
+                    <div class="silder_icon">
+                        <i class="fa-solid fa-sliders"></i>
+                    </div>
+                    <div id="set_set_icon">
+                        <i class="fa-solid fa-house"></i>
+                        <i class="fa-sharp fa-solid fa-triangle-exclamation"></i>
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                </div>
+
+                <!-- first nav -->
+                <div class="row" id="inner_right">
+                    <div class="silder_icon">
+                        <div class="row" id="set_mainWord">
+                            <div id="earth_icon">
+                                <i class="fa-solid fa-globe"></i>
+                            </div>
+                            <div class="word_text">
+                                <h2>dashboard</h2>
+                                <h6>home</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="word_dash_text">
+                        <a href="">home</a> /
+                        <a href="">dashboard</a>
+                    </div>
+                </div>
+
+
+                <!-- start card -->
+
+                <div class="row" id="MainUpper_cart">
+                    <div class="col-md-3">
+                        <div class="col-md-12" id="main_card">
+                            <div class="row cart">
+                                <div class="set_cart_icon">
+                                    <h4>3</h4>
+                                    <h6>total customer</h6>
+                                </div>
+                                <div id="set-icon_cart_icon">
+                                    <i class="fa-solid fa-users"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="col-md-12" id="main_card">
+                            <div class="row cart">
+                                <div class="set_cart_icon">
+                                    <h4>161</h4>
+                                    <h6>total customer</h6>
+                                </div>
+                                <div id="set-icon_cart_icon">
+                                    <i class="fa-solid fa-basket-shopping"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="col-md-12" id="main_card">
+                            <div class="row cart">
+                                <div class="set_cart_icon">
+                                    <h4>3</h4>
+                                    <h6>total customer</h6>
+                                </div>
+                                <div id="set-icon_cart_icon">
+                                    <i class="fa-regular fa-user"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="col-md-12" id="main_card">
+                            <div class="row cart">
+                                <div class="set_cart_icon">
+                                    <h4>3</h4>
+                                    <h6>total customer</h6>
+                                </div>
+                                <div id="set-icon_cart_icon">
+                                    <i class="fa-sharp fa-solid fa-clipboard"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- start second card -->
+
+                <div class="row" id="MainUpper_cart">
+                    <div class="col-md-3">
+                        <div class="col-md-12 second_card" id="second_card_one">
+                            <i class="fa-solid fa-calculator"></i>
+                            <h2>create POS invoice</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="col-md-12 second_card" id="second_card_two">
+                            <i class="fa-sharp fa-solid fa-clipboard"></i>
+                            <h2>create POS invoice</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="col-md-12 second_card" id="second_card_three">
+                            <i class="fa-solid fa-box"></i>
+                            <h2>create POS invoice</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="col-md-12 second_card" id="second_card_four">
+                            <i class="fa-regular fa-user"></i>
+                            <h2>create POS invoice</h2>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+</body>
+
+</html>

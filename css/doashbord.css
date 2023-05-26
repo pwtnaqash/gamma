@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#thre_col_main{
+    padding: 0;
+    margin: 0;
+}
+.img_logo{
+    text-align: center;
+    padding: 0.7rem;
+    background-color: rgba(92, 89, 89, 0.493);
+}
+.img_logo img{
+    width: 40px;
+    height: 40px;
+}
+.img_logo i{
+    font-size: 1.6rem;
+    color: green;
+}
+
+/* user_logo */
+#thre_col_main{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+#thre_col_main_inner{
+  position: fixed;
+  height: 100vh;
+  width: 16.6%;
+  overflow: scroll;
+}
+::-webkit-scrollbar {
+    width: 2px;
+  }
+
+.user_logo{
+    text-align: center;
+    padding: 1.5rem 0rem;
+}
+.user_logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 16rem;
+}
+.user_logo h2{
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 0.8rem 0rem 0rem 0rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+/* dropdown menu */
+.dropdown{
+    width: 100%;
+}
+
+#main_left_side{
+    background-color:rgba(57, 57, 56, 0.803);
+    opacity: 0.8;
+}
+
+#headingThree {
+    text-align: start !important;
+    align-items: flex-start;
+}
+
+
+.card-header{
+    background-color: rgba(57, 57, 56, 0.803);
+    padding: 0rem;
+}
+
+#headingThree button{
+    width: 100%;
+    outline: none;
+    padding: 1rem 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.9rem;
+    background-color: black;
+    color: white;
+    border: none;
+    opacity: 5;
+    cursor: pointer;
+    text-align: start;
+    font-family: 'Titillium Web', sans-serif;
+}
+#headingThree i{
+    padding-right: 1rem;
+}
+#headingThree button:hover{
+    background-color:rgba(57, 57, 56, 0.803);
+    color: white;
+    padding: 1rem 1rem;
+    border-radius: 0.2rem;
+    width: 100%;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: none;
+    opacity: 5;
+    cursor: pointer;
+    text-align: start;
+    font-family: 'Titillium Web', sans-serif;
+}
+.card-body{
+    background-color:black;
+    padding: 0.5rem;
+    border-left: 2px solid white;
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+}
+.card-body a{
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    font-family: 'Titillium Web', sans-serif;
+    padding: 0.2rem;
+}
+
+.card-body a:hover{
+    padding: 0.2rem 0.7rem;
+    border-left: 2px solid white;
+    /* background-color: white; */
+    border-radius: 0.4rem;
+    /* color: black; */
+}
+
+
+
+
+
+
+
+
+/* right side start */
+#main_right_side{
+    background-color: silver;
+}
+
+
+#inner_right{
+    padding: 1rem;
+    justify-content: space-between;
+    border-bottom: 1px solid silver;
+    background-color: white;
+    align-items: center;
+}
+#inner_right i{
+    font-size: 1.6rem;
+}
+.silder_icon i{
+    border-right: 2px solid silver;
+    padding-right: 1rem;
+}
+#set_set_icon i{
+    padding-left: 1rem;
+}
+
+/* secod nav */
+#set_mainWord{
+    align-items: center;
+    padding: 1rem 3rem;
+}
+#earth_icon i{
+    color: green;
+    font-size: 3rem;
+    border-right: none;
+}
+.word_text h2{
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.word_text h6{
+    text-transform: capitalize;
+
+}
+.word_dash_text{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid silver;
+    padding: 0.3rem 0.4rem;
+    align-items: center;
+    border-radius: 0.6rem;
+}
+.word_dash_text a{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0rem 1rem;
+    padding-top: 0.1rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+}
+
+/* cart  */
+#MainUpper_cart{
+    padding: 2rem 1rem;
+}
+#main_card{
+    border-left: 12px solid rgba(35, 35, 174, 0.775);
+    background-color: white;
+    border-radius: 0.5rem;
+    /* margin: 1rem; */
+}
+.cart{
+    border-radius: 0.5rem;
+    background-color: white;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.set_cart_icon h4{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.set_cart_icon h6{
+    color: silver;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+#set-icon_cart_icon i{
+    font-size: 1.5rem;
+    border-radius: 7rem;
+    border:2px solid skyblue ;
+    color: white;
+    background-color:rgba(32, 32, 227, 0.889);
+    padding: 1rem;
+}
+
+
+/* start second card */
+
+.second_card{
+    background-color: rgb(34, 48, 241);
+    text-align: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
+#second_card_one{
+    background-image: url('../images/dashbord/card1.jpg');
+    height: 25vh;
+    align-items: center;
+}
+#second_card_two{
+    background-color: rgb(241, 210, 34);
+    text-align: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
+#second_card_three{
+    background-color: rgba(24, 246, 24, 0.638);
+    text-align: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
+
+#second_card_four{
+    background-color: rgba(226, 85, 8, 0.638);
+    text-align: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
+.second_card i{
+    background-color: rgb(126, 138, 138);
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 3rem;
+    width: 30%;
+    color: white;
+}
+.second_card h2{
+    padding-top: 0.6rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+}

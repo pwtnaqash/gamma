@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main_head_nav {
+    background-color: rgb(202, 30, 24);
+    width: 100%;
+}
+
+#main_header {
+    height: 5vh !important;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center !important;
+    padding: 0.1rem 4rem;
+}
+
+
+
+.head-left p {
+    font-family: 1rem;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.head-right a {
+    text-decoration: none !important;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 500;
+    margin-left: 1rem;
+    text-transform: capitalize;
+}
+
+.head-right li {
+    margin-left: 1rem;
+    text-transform: capitalize;
+}
+
+
+
+/* start nav */
+/* #nav_set_mainInner {
+    padding: 0rem 6rem;
+} */
+
+#navlogo {
+    display: flex;
+}
+
+#navlogo h4 {
+    font-size: 1.4rem;
+    padding-top: 0.4rem;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    padding-left: 0.5rem;
+}
+
+#nav_set img {
+    width: 75px;
+    height: 75px;
+}
+
+#small_nav_set img {
+    width: 75px;
+    height: 75px;
+}
+
+#navbarSupportedContent {
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* search start */
+#search {
+    /* padding: 0rem 0.8rem; */
+    margin-left: 8rem;
+    border: 1px solid rgb(216, 213, 213);
+    width: 50%;
+    border-radius: 2rem;
+}
+
+#search button {
+    color: white;
+}
+
+#search input {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border: none;
+    width: 100% !important;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    padding: 0rem 1rem;
+}
+
+#nav_btn a {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: white;
+    margin: 0rem 0.6rem;
+}
+
+#shoping {
+    background-color: white;
+    padding: 0rem 1.1rem;
+    height: 5.4vh;
+    margin-top: 0.6rem !important;
+    border-radius: 2rem;
+    font-size: 1rem;
+    z-index: 11;
+}
+
+#shoping a {
+    color: black;
+}
+
+.smallNav_top {
+    border-top: 1px solid white !important;
+}
+
+/* start second nav */
+#second_nav {
+    background-color: rgb(161, 39, 35);
+    padding: 0rem 1rem !important;
+}
+
+.navbar-nav a {
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+/* start small nav */
+#small-shopping a {
+    font-size: 1.8rem;
+    color: white;
+}
+
+#fitness {
+    color: rgb(231, 170, 3) !important;
+}
+
+#second_nav_list {
+    display: flex !important;
+}
+
+#second_nav_list a {
+    color: white;
+    padding-left: 1rem;
+    text-transform: capitalize;
+}
+
+
+
+
+@media (min-width:280px) and (max-width:540px){
+    header{
+        display: none !important;
+    }
+    #small_nav_set img {
+        width: 60px;
+        height: 60px;
+    }
+
+    #main_header{
+        /* display: block; */
+        width: 100%;
+    }
+   
+    #main_header {
+        height: 25vh !important;
+        display: block;
+        padding: 0.1rem 0rem;
+    }
+
+    #nav_set{
+        padding: 0rem 0rem !important;
+        display: none;
+    }
+
+    #search {
+        margin-left: 1rem;
+        width: 90%;
+    }
+
+    #shoping {
+        width: 65px;
+        margin-left: 1rem;
+    }
+}
+
+@media(min-width:541px) and (max-width:900px) {
+    #main_header {
+        display: none;
+    }
+
+    #nav_set {
+        padding: 0rem 1rem;
+        display: none;
+    }
+
+    #shoping {
+        width: 65px;
+        margin-left: 1rem;
+    }
+    #search {
+        margin-left: 1rem;
+        border: 1px solid rgb(216, 213, 213);
+        width: 50%;
+        border-radius: 2rem;
+    }
+}
+
+@media(min-width:900px) and (max-width:1600px) {
+    #small_nav_set {
+        display: none;
+    }
+
+    #second_nav_list {
+        display: none !important;
+    }
+    #search {
+        margin-left: 1rem;
+        border: 1px solid rgb(216, 213, 213);
+        width: 50%;
+        border-radius: 2rem;
+    }
+    #shoping {
+        margin-top: 0.2rem !important;
+    }
+}

@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main_learn{
+    background-color: #726f6f;
+}
+#main_nav_learn{
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 2rem;
+    text-transform: capitalize;
+    text-align: center;
+    align-items: center;
+}
+#main_nav_learn h3{
+    font-size: 1.1rem;
+}
+#learn_ul ul{
+    display: flex !important;
+}
+#learn_ul li{
+    margin-left: 1rem;
+    list-style-type: none;
+    cursor: pointer;
+}
+#learn_ul li:hover{
+    text-decoration: underline;
+}
+#learn_ul button{
+    padding: 0.1rem 1rem;
+    border-radius: 0.4rem;
+    background-color: black;
+    color: white;
+}
+#mainLearn{
+    padding: 3rem 20rem;
+    text-align: center;
+}
+#mainLearn h5{
+    font-size: 1.3rem;
+    color:  white;
+    text-transform: capitalize;
+    padding: 1rem;
+}
+#inner_Leanrn{
+    background-color: #000000;
+    padding: 2rem;
+}
+#linea_main{
+    width: 100%;
+}
+#linea_main img{
+    width: 100%;
+    height:70vh;
+    margin-top: 5rem;    
+}
+#inner_col7_learn{
+    text-align: start;
+}
+#inner_col7_learn h3{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+#inner_col7_learn h6{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #ffffffa2;
+}
+
+#inner_imf_learn_multi{
+    width: 100%;
+    padding: 3rem 0rem;
+}
+#inner_imf_learn_multi img{
+    margin-top: 1rem;
+    width: 100%;
+    border: 1px solid #fff;
+    padding: 1rem;
+    /* background-color: rgba(255, 255, 255, 0.274); */
+}
+
+#muilti_text{
+    align-items: center !important;
+    background-color: #000000 !important;
+    color: #fff;
+    flex-direction: column;
+    padding: 2rem;
+    text-transform: capitalize;
+}
+#Main_leanr_card{
+    padding: 5rem 7rem;
+    color: white;
+}
+#cart_multi_leand{
+    padding: 1rem;
+    background-color: #000000;
+    border-radius: 0.6rem;
+}
+#cart_multi_leand li{
+    list-style-type: none;
+}
+#Main_leanr_card h3{
+    font-size: 1rem;
+    width: 70%;
+    padding: 2rem 1rem;
+}

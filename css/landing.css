@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-landingPage {
+    background-color: black;
+}
+
+#landin_img {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+#landin_img img {
+    width: 70% !important;
+}
+
+.lanin_mob_text {
+    width: 100%;
+    height: 250vh !important;
+    background-image: url('../images/LandingPage/bottom_img.png');
+    display: flex;
+    justify-content: center;
+     padding-bottom: 4rem;
+}
+
+.lanin_mob_text h2 {
+    font-size: 3.5rem;
+    width: 63%;
+    text-align: start;
+    color: rgba(222, 108, 243, 0.744);
+    font-weight: 600;
+    margin: 16rem 0rem;
+}
+
+.second_session {
+    width: 100%;
+    height: 180vh;
+    background-image: url('../images/LandingPage/top_img.png');
+     padding-bottom: 4rem;
+     display: flex;
+     justify-content: center;
+}
+
+.second_session h2 {
+    font-size: 7rem;
+    color: black;
+    font-weight: 700;
+}
+.seocd_text{
+   width: 63%;
+}
+.seocd_text h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    margin-top: 1rem;
+}
+
+.seocd_text h4{
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+.btn_set{
+    width: 63%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.seocd_text a{
+    font-size: 1.4rem;
+    margin-top: 1.9rem;
+    font-weight: 600;
+    color: black;
+    border: none;
+    background-color: none;
+}
+
+.main_second_mob{
+    width: 100% !important;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.phone_bottom_text{
+    width: 40%;
+}
+.phone_bottom_text h2{
+    font-size: 2.5rem;
+    margin-top: 1.7rem;
+    text-align: start;
+    font-weight: 700;
+    color: white;
+}
+
+.phone_bottom_text h5{
+    font-size: 1.7rem;
+    margin-top: 1.5rem;
+    text-align: start;
+    font-weight: 600;
+    color: silver;
+}
+
+#second_mob{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    /* justify-content:space-around; */
+}
+#second_mob_img img{
+    width: 90%;
+}
+
+.second_mob_set ul{
+    margin-top: 20rem;
+    text-align: start;
+    margin-left: 2rem;
+}
+
+.second_mob_set ul li{
+    list-style-type: none;
+    font-size: 1.3rem;
+    color: silver;
+    font-weight: 600;
+}
+#phone_text{
+    color: white;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+}
+
+
+/* apple logo */
+
+
+.apple_logo{
+    margin-top: 5rem;
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.start_apple{
+    width: 83%;
+    padding: 1.2rem 0rem;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+#apple_logo_set i{
+    font-size: 2.6rem;
+    color: silver;
+}
+#apple_text{
+    width: 35%;
+    color: silver;
+}
+#apple_text h3{
+    font-size: 1.1rem;
+    font-weight: 700;
+}

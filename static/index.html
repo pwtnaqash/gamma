@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gamma Gym</title>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/nav.css">
+  <link rel="stylesheet" href="../css/cardHover.css">
+  <link rel="stylesheet" href="../../Bilal//Gamma/frontend/getACall/getaCall.css">
+  <link rel="stylesheet" href="../../Bilal//Gamma/frontend/login//a.css">
+  <link rel="stylesheet" href="../../Bilal//Gamma/frontend/signUp/signUps.css">
+
+  <!-- bootstrap cdn link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- fontawsome -->
+  <script src="https://kit.fontawesome.com/6286729677.js" crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+  <!-- bootstrap link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <style>
+    .hover-element {
+      /* position: relative; */
+      display: inline-block;
+      /* width: 100%; */
+    }
+
+    .modal {
+      display: none;
+      position: absolute;
+      top: 72%;
+      left: 72%;
+      /* background-color: #f9f9f9; */
+      /* border: 1px solid #ccc; */
+      padding: 10px;
+      z-index: 1;
+      width: 40%;
+    }
+
+    .hover-element:hover .modal {
+      display: block;
+      width: 26%;
+      height: 64vh;
+    }
+
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .close:hover {
+      color: black;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="col-md-12" id="main_head_nav">
+    <header>
+      <div class="row" id="main_header">
+        <div class="col-md-4 head-left">
+          <p>customer care 9501189896</p>
+        </div>
+        <div class="col-md-8" style="display: flex;justify-content: end;">
+          <ul class="head-right">
+            <span>
+              <a href=""><i class="fa-solid fa-clipboard"></i> project gallery</a>
+            </span>
+            <span>
+              <span id="liginandSignUp_modal">
+
+                <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-user"></i>
+                  login/signup</a>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content" style="padding: 1rem;">
+                      <div class="container" id="main_login">
+                        <form id="inner__signin_modal">
+                          <div id="img_con">
+                            <img src="../../Bilal//Gamma/frontend/login/logo.jpg" width="120px" height="120px"
+                              alt="login form" style="padding-bottom: 0.8rem;" />
+
+                          </div>
+                          <div class="form-outline mb-4">
+                            <label class="form-label" for="form2Example1">Email
+                              address</label>
+                            <input type="email" id="form2Example1" class="form-control" />
+                          </div>
+
+                          <div class="form-outline mb-4">
+                            <label class="form-label" for="form2Example2">Password</label>
+                            <input type="password" id="form2Example2" class="form-control" />
+                          </div>
+
+                          <div class="row mb-4">
+                            <div class="col d-flex justify-content-center">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                                <label class="form-check-label" for="form2Example31"> Remember me </label>
+                              </div>
+                            </div>
+
+                            <div class="col">
+                              <a href="#!" style="color: #1e2d7d;"> Forgot
+                                password?</a>
+                            </div>
+                          </div>
+
+                          <button id="Submit_btn" type="button" class="btn btn-primary btn-block mb-4">Sign
+                            in</button>
+
+                          <div class="text-center">
+                            <p>Not a member? <a style="color:#1e2d7d;" href="#" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalsignUp">sign up
+                              </a></p>
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                              <i class="fab fa-facebook-f"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                              <i class="fab fa-google"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                              <i class="fab fa-twitter"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                              <i class="fab fa-github"></i>
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </span>
+            </span>
+
+            <div class="modal fade" id="exampleModalsignUp" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="container" id="main__signUp">
+                    <form id="inner_signUp_modal">
+                      <div id="img_con">
+                        <img src="../../Bilal/Gamma/frontend/signUp/logo.jpg" width="120px" height="120px"
+                          alt="login form" style="padding-bottom: 0.8rem;" />
+
+                      </div>
+                      <div class="form-outline mb-4">
+                        <label class="form-label" for="form2Example1">Name</label>
+                        <input type="email" id="form2Example1" class="form-control" />
+                      </div>
+                      <div class="form-outline mb-4">
+                        <label class="form-label" for="form2Example1">Email address</label>
+                        <input type="email" id="form2Example1" class="form-control" />
+                      </div>
+
+                      <div class="form-outline mb-4">
+                        <label class="form-label" for="form2Example1">Phone</label>
+                        <input type="email" id="form2Example1" class="form-control" />
+                      </div>
+                      <div class="form-outline mb-4">
+                        <label class="form-label" for="form2Example1">country</label>
+                        <input type="email" id="form2Example1" class="form-control" />
+                      </div>
+
+                      <div class="form-outline mb-4">
+                        <label class="form-label" for="form2Example2">Password</label>
+                        <input type="password" id="form2Example2" class="form-control" />
+                      </div>
+
+                      <button id="Submit_btn" type="button" class="btn btn-primary btn-block mb-4">Sign Up</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <span>
+              <a href=""><i class="fa-brands fa-jedi-order fa-beat"></i>my orders</a>
+            </span>
+            <span>
+              <a href=""><i class="fa-solid fa-envelope"></i> get in touch</a>
+            </span>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg" id="nav_set_mainInner">
+      <div class="container-fluid" id="nav_set">
+        <a class="navbar-brand" href="#" id="navlogo">
+          <div>
+            <img src="../images/logo.jpg" alt="" />
+          </div>
+          <div>
+            <h4>Gamma <br> <span id="fitness"> fitness </span></h4>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <form class="d-flex" role="search" id="search">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn" type="submit">Search</button>
+          </form>
+
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item" id="nav_btn">
+              <a class="nav-link active" aria-current="page" href="#"><i class="fa-regular fa-heart"></i>
+                wishlish</a>
+            </li>
+            <li class="nav-item" id="nav_btn">
+
+              <div id="getCall_request">
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModalgetcall" href="#"><i
+                    class="fa-solid fa-phone-volume"></i> get a
+                  call</a>
+
+                <div class="modal fade" id="exampleModalgetcall" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content" id="main_callGet">
+                      <h5 class="modal-title" id="exampleModalLabel">call back request</h5>
+                      <div class="row">
+                        <div class="col-md-6 form-outline mb-4">
+                          <label class="form-label" for="form2Example1">name</label>
+                          <input type="email" id="form2Example1" placeholder="Customer Name" class="form-control" />
+                        </div>
+
+                        <div class="col-md-6 form-outline mb-4">
+                          <label class="form-label" for="form2Example2">mobile</label>
+                          <input type="number" id="form2Example2" placeholder="Contact" class="form-control" />
+                        </div>
+                      </div>
+
+                      <div class="form-outline mb-4">
+                        <label class="form-label" for="form2Example2">message</label>
+                        <br>
+                        <textarea name="" placeholder="i need some information" id="textaea_getCall" cols=""
+                          rows="4"></textarea>
+                      </div>
+
+                      <button type="submit">submit request</button>
+
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </li>
+
+
+            <li class="hover-element" id="shoping">
+              <a class="nav-link"><i class="fa-solid fa-cart-plus fa-beat"></i></a>
+              <div class="modal">
+                <div style="background-color: white; padding: 1rem; ">
+                  <section>
+                    <div id="first_Div">
+                      <div id="setimg">
+                        <img src="../images/bag.jpg" alt="">
+                      </div>
+                      <div>
+                        <h6>product name</h6>
+                        <p>1 X $225 </p>
+                      </div>
+                      <div id="cross_btn">X</div>
+                    </div>
+
+                    <div id="first_Div">
+                      <div id="setimg">
+                        <img src="../images/bag.jpg" alt="">
+                      </div>
+                      <div>
+                        <h6>product name</h6>
+                        <p>1 X $225 </p>
+                      </div>
+                      <div id="cross_btn">X</div>
+                    </div>
+
+                    <div class="total">
+                      <div>total</div>
+                      <div>$555</div>
+                    </div>
+
+                    <div id="hover_btn">
+
+                      <button type="submit" id="btn_check"><a
+                          href="../../Bilal/Gamma/frontend/cart/addTocart/cart.html">view
+                          cart</a></button>
+                      <button type="submit" id="btn_check">check out</button>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- small nav -->
+
+    <div class="pb-2" id="small_nav_set">
+      <div style="width:100%;display: flex;justify-content: space-between;padding: 0rem 1rem;">
+        <li>
+          <a class="navbar-brand" href="#" id="navlogo">
+            <div>
+              <img src="../images/logo.jpg" alt="" />
+            </div>
+            <div>
+              <h4>Gamma <br> <span id="fitness">fitness</span></h4>
+            </div>
+          </a>
+        </li>
+
+        <li class="nav-item" id="small-shopping">
+          <a class="nav-link"><i class="fa-solid fa-cart-plus fa-beat"></i></a>
+        </li>
+      </div>
+      <form class="d-flex mt-2 " role="search" id="search">
+        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn" type="submit">Search</button>
+      </form>
+
+    </div>
+
+
+    <!-- second nav -->
+    <nav class="navbar navbar-expand-lg" id="second_nav">
+      <div class="container-fluid py-2">
+        <div id="second_nav_list">
+          <a class="nav-link active" aria-current="page" href="#">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a class="nav-link active" aria-current="page" href="#">
+            <i class="fa-solid fa-video"></i>
+          </a>
+          <a class="nav-link" href="#"><i class="fa-solid fa-phone-volume"></i></a>
+
+        </div>
+        <span class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon text-warning"></span> -->
+          <i class="fa-solid fa-bars" style="color:white"></i>
+        </span>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#">strength training equipment</a>
+            <a class="nav-link" href="#">cardio equipment</a>
+            <a class="nav-link" href="">gym machine</a>
+            <a class="nav-link" href="">outdoor & playground items</a>
+            <a class="nav-link" href="">dumbbells, rods & plates</a>
+            <a class="nav-link" href="">crossfit</a>
+            <a class="nav-link" href="">racks</a>
+            <a class="nav-link" href="">accessories</a>
+            <a class="nav-link" href="">home gym packages</a>
+            <a class="nav-link" href="">flooring</a>
+            <a class="nav-link" href="">home gym setup</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+
+  <!-- slider start -->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../images/productAll/lock.webp" style="height: 60vh;" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../images/productAll/Slide_4_desktop.webp" style="height: 60vh;" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../images/productAll/images.jfif" class="d-block w-100" style="height: 60vh;" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- slider end -->
+
+  <!-- three card add -->
+
+  <div class="col-md-12">
+
+    <div class="row" id="main_card_top">
+      <div class="col-md-4">
+        <div class="col-md-12" id="slider_booton_card">
+          <div>
+            <h3>Dumbbell Racks</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem.</p>
+          </div>
+          <div id="card_btn_slider_botom">
+            <a href="">shop racks</a>
+            <img class="padimg" src="../images/logo.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="col-md-12" id="slider_booton_card">
+          <div>
+            <h3>Gamma Cycles</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem.</p>
+          </div>
+          <div id="card_btn_slider_botom">
+            <a href="">shop racks</a>
+            <img class="padimg" src="../images/logo.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="col-md-12" id="slider_booton_card">
+          <div>
+            <h3>Dumbbell </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem.</p>
+          </div>
+          <div id="card_btn_slider_botom">
+            <a href="">shop racks</a>
+            <img class="padimg" src="../images/logo.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- three card add end -->
+
+  <!-- three col-md-6 -->
+
+  <div class="col-md-12">
+    <div class="mainTwoCards">
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <div class="mtCard mt-one">
+            <div class="mtLeftSide">
+              <img src="../images/dumbbell.png" alt="">
+            </div>
+            <div class="mtRightSide text-start">
+              <h2>Exclusive Offers of Dumbbells</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aspernatur
+                perspiciatis numquam,
+                reiciendis vitae nulla in. Error asperiores, facere doloribus</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12">
+          <div class="mtCard mt-two">
+            <div class="mtLeftSide">
+              <img src="../images/dumbbell.png" alt="">
+            </div>
+            <div class="mtRightSide text-start">
+              <h2>Exclusive offers of Dumbbells</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, tenetur
+                nemo? Quis,
+                itaque tempora
+                laborum provident minus odit ab quas dolor mollitia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- col-md-6 end -->
+
+  <!-- start Our Collections -->
+
+  <div class="col-md-12">
+    <div id="our_collection_main">
+      <div class="our_collection_inner">
+        <div class="session_name" id="">
+          <h3>Our Collections</h3>
+        </div>
+        <div class="session_link">
+          <a href="#">View all</a>
+        </div>
+      </div>
+      <div class="our_collection_Link_img">
+        <div class="col-md-12 col-12">
+          <div class="row">
+            <div class="col-md-2 col-12" id="main_Our_collection">
+              <div id="main_inni">
+                <a href="./ProductAll.html">
+                  <div class="ocCollCard">
+                    <!-- <div class="imgCard"> -->
+                    <div>
+                      <img class="collection" src="../images/collectionDumbbell.png" alt="">
+                    </div>
+                    <div class="textCard">
+                      <a href="">Dumbbells</a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2 col-12" id="main_Our_collection">
+              <div id="main_inni">
+                <a href="./ProductAll.html">
+                  <div class="ocCollCard">
+                    <!-- <div class="imgCard"> -->
+                    <div>
+                      <img class="collection" src="../images/collectionDumbbell.png" alt="">
+                    </div>
+                    <div class="textCard">
+                      <a href="">Dumbbells</a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2 col-12" id="main_Our_collection">
+              <div id="main_inni">
+                <a href="./ProductAll.html">
+                  <div class="ocCollCard">
+                    <!-- <div class="imgCard"> -->
+                    <div>
+                      <img class="collection" src="../images/collectionDumbbell.png" alt="">
+                    </div>
+                    <div class="textCard">
+                      <a href="">Dumbbells</a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2 col-12" id="main_Our_collection">
+              <div id="main_inni">
+                <a href="./ProductAll.html">
+                  <div class="ocCollCard">
+                    <!-- <div class="imgCard"> -->
+                    <div>
+                      <img class="collection" src="../images/collectionDumbbell.png" alt="">
+                    </div>
+                    <div class="textCard">
+                      <a href="">Dumbbells</a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2 col-12" id="main_Our_collection">
+              <div id="main_inni">
+                <a href="./ProductAll.html">
+                  <div class="ocCollCard">
+                    <!-- <div class="imgCard"> -->
+                    <div>
+                      <img class="collection" src="../images/collectionDumbbell.png" alt="">
+                    </div>
+                    <div class="textCard">
+                      <a href="">Dumbbells</a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-2 col-12" id="main_Our_collection">
+              <div id="main_inni">
+                <a href="./ProductAll.html">
+                  <div class="ocCollCard">
+                    <!-- <div class="imgCard"> -->
+                    <div>
+                      <img class="collection" src="../images/collectionDumbbell.png" alt="">
+                    </div>
+                    <div class="textCard">
+                      <a href="">Dumbbells</a>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- end Our Collections -->
+
+  <!-- start Brands we distribute -->
+  <div class="container-fluid" id="Brand-distribut_blog">
+    <div id="blog_post">
+      <h3>Featured collection</h3>
+      <a href="">View all</a>
+    </div>
+
+    <div class=" col-md-12" id="brand_area">
+      <div class="row">
+
+        <div class="col-lg-2 col-xl-2 col-md-2" id="brand_img">
+          <a href="./productView.html">
+            <div id="new_tv_card">
+              <!-- <h2>save $500.00</h2> -->
+              <img style="height: 39vh;" src="../images/lcd/lcd1.webp" alt="">
+              <p>Sony</p>
+              <h5>Sony KD55X750F 55-Inch 4K Ultra HD Smart LED TV</h5>
+              <h6>$748.00</h6>
+              <p id="new_tv_star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+                3 reviews
+              </p>
+              <li style="color: green;font-weight: 600;">In stock, 145 units</li>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-2 col-xl-2 col-md-2 " id="brand_img">
+          <div id="new_tv_card">
+            <!-- <h2>save $500.00</h2> -->
+            <img style="height: 39vh;" src="../images/lcd/lcd1.webp" alt="">
+            <p>Sony</p>
+            <h5>Sony KD55X750F 55-Inch 4K Ultra HD Smart LED TV</h5>
+            <h6>$748.00</h6>
+            <p id="new_tv_star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              3 reviews
+            </p>
+            <li style="color: green;font-weight: 600;">In stock, 145 units</li>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-xl-2 col-md-2 " id="brand_img">
+          <div id="new_tv_card">
+            <!-- <h2>save $500.00</h2> -->
+            <img style="height: 39vh;" src="../images/lcd/lcd1.webp" alt="">
+            <p>Sony</p>
+            <h5>Sony KD55X750F 55-Inch 4K Ultra HD Smart LED TV</h5>
+            <h6>$748.00</h6>
+            <p id="new_tv_star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              3 reviews
+            </p>
+            <li style="color: green;font-weight: 600;">In stock, 145 units</li>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-xl-2 col-md-2 " id="brand_img">
+          <div id="new_tv_card">
+            <!-- <h2>save $500.00</h2> -->
+            <img style="height: 39vh;" src="../images/lcd/lcd1.webp" alt="">
+            <p>Sony</p>
+            <h5>Sony KD55X750F 55-Inch 4K Ultra HD Smart LED TV</h5>
+            <h6>$748.00</h6>
+            <p id="new_tv_star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              3 reviews
+            </p>
+            <li style="color: green;font-weight: 600;">In stock, 145 units</li>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-xl-2 col-md-2 " id="brand_img">
+          <div id="new_tv_card">
+            <!-- <h2>save $500.00</h2> -->
+            <img style="height: 39vh;" src="../images/lcd/lcd1.webp" alt="">
+            <p>Sony</p>
+            <h5>Sony KD55X750F 55-Inch 4K Ultra HD Smart LED TV</h5>
+            <h6>$748.00</h6>
+            <p id="new_tv_star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              3 reviews
+            </p>
+            <li style="color: green;font-weight: 600;">In stock, 145 units</li>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-xl-2 col-md-2" id="brand_img1">
+          <div id="new_tv_card">
+            <!-- <h2>save $500.00</h2> -->
+            <img style="height: 39vh;" src="../images/lcd/lcd1.webp" alt="">
+            <p>Sony</p>
+            <h5>Sony KD55X750F 55-Inch 4K Ultra HD Smart LED TV</h5>
+            <h6>$748.00</h6>
+            <p id="new_tv_star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              3 reviews
+            </p>
+            <li style="color: green;font-weight: 600;">In stock, 145 units</li>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--end Brands we distribute -->
+
+  <!--start card  -->
+  <div class="container-fluid">
+
+    <div class="row mt-5">
+      <div class="col-md-3">
+        <div class="card_img_blooth" id="card_img_data">
+          <h3>Bluetooth</h3>
+          <h4>Feel the freedom with our Bluetooth headphones and speakers.</h4>
+          <button>Shop Now</button>
+        </div>
+
+        <div class="mt-4 card_img_audio" id="card_img_data">
+          <h3>Professional</h3>
+          <h4>Get the best deals for professional audio equipment.</h4>
+          <button>Shop Now</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mid_img px-5" id="mid_product_cart">
+          <h3>Bluetooth</h3>
+          <h4>Feel the freedom with our Bluetooth headphones and speakers.</h4>
+          <button>Shop Now</button>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card_img_bag" id="card_img_data">
+          <h3>Accessories</h3>
+          <h4>Our various accessories to have the best experience.</h4>
+          <button>Shop Now</button>
+        </div>
+
+        <div class="mt-4 card_img_project" id="card_img_data">
+          <h3>Projectors</h3>
+          <h4>Play or watch your favorites TV shows with these projectors.</h4>
+          <button>Shop Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--start card  -->
+
+  <!--start About Warehouse area -->
+
+  <div id="set_Warehouse_area">
+    <h4>About Warehouse</h4>
+    <p>Our mission statement is to provide the absolute best customer experience available in the
+      Audio/Video
+      industry without exception. We choose to only sell the best performing products in the
+      world, learning
+      them inside and out to ensure your experience with our organization and the products we
+      supply are second
+      to none. HiDEF Lifestyle is one of the fastest growing Audio and Video retailers in the
+      United States.</p>
+    <div class="mt-4" id="Warehouse_set">
+      <button>Discover our brand</button>
+    </div>
+  </div>
+
+  <!-- end About Warehouse area -->
+
+
+  <!-- start Featured product -->
+
+  <div class="container-fluid">
+    <div id="blog_post">
+      <h3>Featured product</h3>
+      <a href="">View all </a>
+    </div>
+    <div class="row" id="feature_product_body">
+      <div class="col-md-6 border border-right-0" id="img_lock">
+        <div id="small_img">
+          <li>
+            <img src="../images//lock/16047_177__4_8b5dec2f-32d6-441d-ac14-c259debeb4b6.jpg" alt="">
+          </li>
+          <li>
+            <img src="../images/lock/16047_212__2_b04238d0-08da-4319-8cdd-893df4bc15ef_1024x.jpg" alt="">
+          </li>
+          <li>
+            <img src="../images/lock/16047_950__3_a18a25dd-5fce-4ca3-95ca-377426c84175.jpg" alt="">
+          </li>
+          <li>
+            <img src="../images/lock/16047_401__5_a1d1b670-c599-40f4-a326-af6e17dc181c.jpg" alt="">
+          </li>
+          <li>
+            <img src="../images//lock/16047_417__1_dcd9694a-a473-46e8-9368-d0aaadbce069.jpg" alt="">
+        </div>
+        <div>
+          <img style="width: 90%;height: 80vh;"
+            src="../images//lock/16047_417__1_dcd9694a-a473-46e8-9368-d0aaadbce069.jpg" alt="">
+        </div>
+      </div>
+      <!-- JBL col -->
+
+
+      <div class="col-md-6 border" id="feature_JBL">
+        <a href="">JBL Clip 3 Portable Waterproof Wireless Bluetooth Speaker</a>
+        <div class="pt-2">
+          <span id="JBL"><a href="">JBL</a></span>
+          <span id="JBL1">SKU: JBL-580619-CLI-BL</span>
+        </div>
+        <div id="review">
+          <span>
+            <p id="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              3 reviews
+            </p>
+          </span>
+          <span id="review_link">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-product-hunt"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-envelope"></i>
+          </span>
+        </div>
+
+
+        <div id="color_set">
+          <h5>color :</h5>
+          <h4 id="color_piker">pink</h4>
+        </div>
+
+        <div id="colors">
+        </div>
+
+        <div id="price_set">
+          <h5>price :</h5>
+          <h4 id="price_piker">$59.96</h4>
+        </div>
+
+        <div id="stock_set">
+          <h5>Quantity :</h5>
+          <div id="quantity">
+            <div id="negtive" onclick="Negtive()">-</div>
+            <div id="num">0</div>
+            <div id="pluss" onclick="Add()">+</div>
+          </div>
+        </div>
+
+
+        <div id="product_add_btn">
+          <button>add to cart</button>
+          <button>buy it now</button>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- end Featured product -->
+
+  <!-- start Top-rated products -->
+
+  <div class="container-fluid " id="main_top_related_product">
+    <div id="blog_post">
+      <h3>Top-rated products</h3>
+      <a href=""></a>
+    </div>
+
+    <div class="Top-rated_product">
+      <div class="row border" id="brand_area">
+        <div class="col-lg-3 col-xl-3 col-md-3 border-right" id="brand_img">
+          <div id="new_tv_card">
+            <!-- <h2>save $500.00</h2> -->
+            <img style="height: 39vh;" src="../images/card_img//bluetooth.webp" alt="">
+            <p>Sony</p>
+            <h5>Sony KD55X750F 55-Inch 4K Ultra HD Smart LED TV</h5>
+            <h6>$748.00</h6>
+            <p id="new_tv_star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              3 reviews
+            </p>
+            <li style="color: green;font-weight: 600;">In stock, 145 units</li>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-xl-3 col-md-3 border-right" id="brand_img">
+          <div id="new_tv_card">
+            <!-- <h2>save $500.00</h2> -->
+            <img style="height: 39vh;" src="../images/card_img/audio.jpg" alt="">
+            <p>Sony</p>
+            <h5>Sony KD55X750F 55-Inch 4K Ultra HD Smart LED TV</h5>
+            <h6>$748.00</h6>
+            <p id="new_tv_star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              3 reviews
+            </p>
+            <li style="color: green;font-weight: 600;">In stock, 145 units</li>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-xl-3 col-md-3 border-right" id="brand_img">
+          <div id="new_tv_card">
+            <!-- <h2>save $500.00</h2> -->
+            <img style="height: 39vh;" src="../images/card_img/bg.jpg" alt="">
+            <p>Sony</p>
+            <h5>Sony KD55X750F 55-Inch 4K Ultra HD Smart LED TV</h5>
+            <h6>$748.00</h6>
+            <p id="new_tv_star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              3 reviews
+            </p>
+            <li style="color: green;font-weight: 600;">In stock, 145 units</li>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-xl-3 col-md-3" id="brand_img1">
+          <div id="new_tv_card">
+            <!-- <h2>save $500.00</h2> -->
+            <img style="height: 39vh;" src="../images/card_img/handfree.jpg" alt="">
+            <p>Sony</p>
+            <h5>Sony KD55X750F 55-Inch 4K Ultra HD Smart LED TV</h5>
+            <h6>$748.00</h6>
+            <p id="new_tv_star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              3 reviews
+            </p>
+            <li style="color: green;font-weight: 600;">In stock, 145 units</li>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--end Top-rated products -->
+
+  <!--start Blog posts -->
+  <div class="container-fluid" id="main_top_related_product">
+    <div id="blog_post">
+      <h3>Blog posts</h3>
+      <a href="">View all </a>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-xl-4 col-md-4" id="setimg_index">
+        <div id="main_ss">
+          <img class="setimg_img" src="../images//blog_img/old-new-living-space.webp" alt="">
+          <h3>Setup your Surround sound speaker</h3>
+          <p>Michaël GallegoApr 15, 2019</p>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-xl-4 col-md-4" id="setimg_index">
+        <div id="main_ss">
+          <img class="setimg_img" src="../images/blog_img/dj-board-volume-slider.webp" alt="">
+          <h3>Hook up a receiver for your home theater</h3>
+          <p>Michaël GallegoApr 15, 2019</p>
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-xl-4 col-md-4" id="setimg_index">
+        <div id="main_ss">
+          <img class="setimg_img" src="../images/blog_img/3.webp" alt="">
+          <h3>Top most comfortable headphones</h3>
+          <p>Michaël GallegoApr 15, 2019</p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!--ennd Blog posts -->
+
+  <!--start Our stores -->
+  <div class="container-fluid">
+    <div id="blog_post">
+      <h3>Our stores </h3>
+      <a href=""> </a>
+    </div>
+
+    <div class="row" id="feature_product_body" style="padding: 0rem 1rem;">
+      <div class="col-md-6 col-lg-6 border border-right-0" id="main_Side_Story">
+        <div>
+          <div type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false"
+            aria-controls="collapseExample1">
+            <div id="our_story">
+              <h4>HiDEF Lifestyle Home Theater Store</h4>
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+
+            <div class="collapse" id="collapseExample1">
+              <div id="story_text">
+                <h4>6195 Allentown Blvd, Harrisburg, PA 17112, USA</h4>
+                <ul>
+                  <li>Monday - Friday: 9AM - 7PM</li>
+                  <li>Saturday: 9AM - 5PM</li>
+                  <li>Sunday: Closed</li>
+                </ul>
+                <button>get directions</button>
+              </div>
+            </div>
+
+          </div>
+
+          <div type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false"
+            aria-controls="collapseExample2">
+            <div id="our_story" class="border-top mt-3">
+              <h4>HiDEF Showroom</h4>
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+
+            <div class="collapse show" id="collapseExample2">
+              <div id="story_text">
+                <h4>Allentown Blvd, Pennsylvania, USA</h4>
+                <ul>
+                  <li>Monday - Friday: 9AM - 7PM</li>
+                  <li>Saturday: 9AM - 5PM</li>
+                  <li>Sunday: Closed</li>
+                </ul>
+                <button>get directions</button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+      <!-- map col -->
+      <div class="col-md-6 col-lg-6 border" id="feature_JBL_story">
+        <div>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe width="100%" height="554" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=california&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                scrolling="no" marginheight="0" marginwidth="0">
+              </iframe><a href="https://2yu.co">2yu</a><br>
+              <style>
+                .mapouter {
+                  position: relative;
+                  text-align: right;
+                  height: 554px;
+                  width: 100%;
+                }
+              </style><a href="https://embedgooglemap.2yu.co">html embed google map</a>
+              <style>
+                .gmap_canvas {
+                  overflow: hidden;
+                  background: none !important;
+                  height: 554px;
+                  width: 100%;
+                }
+              </style>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--end Our stores -->
+
+  <!--start email area -->
+
+  <div id="set_email_area" class="">
+    <h4>Let's keep in touch!</h4>
+    <p>Subscribe to our weekly newsletter and receive exclusive offers</p>
+    <p> on products you love!</p>
+    <div id="email_set">
+      <input type="text" placeholder="Your email">
+      <button>Subscribe</button>
+    </div>
+  </div>
+
+  <!--end email area -->
+
+  <!--start Most searched collections -->
+
+  <div class="container-fluid " id="most_search_collection">
+    <div id="blog_post">
+      <h3>Most searched collections</h3>
+      <!-- <a href=""> </a> -->
+    </div>
+
+    <div class="">
+      <div class="row" id="searched_area2">
+
+        <div class="col-lg-2 col-xl-2 col-md-2" id="set_btn_searched">
+          <h3><a href="">Headphones</a></h3>
+        </div>
+
+        <div class="col-lg-2 col-xl-2 col-md-2" id="set_btn_searched">
+          <h3><a href="">Speakers</a></h3>
+        </div>
+
+        <div class="col-lg-2 col-xl-2 col-md-2" id="set_btn_searched">
+          <h3><a href="">TVs</a></h3>
+        </div>
+
+        <div class="col-lg-2 col-xl-2 col-md-2" id="set_btn_searched">
+          <h3><a href="">Turntables</a></h3>
+        </div>
+
+        <div class="col-lg-2 col-xl-2 col-md-2" id="set_btn_searched">
+          <h3><a href="">Subwoofers</a></h3>
+        </div>
+
+        <div class="col-lg-2 col-xl-2 col-md-2" id="set_btn_searched">
+          <h3><a href="">Projectors</a></h3>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--end Most searched collections -->
+
+  <!--start Recently viewed -->
+
+  <div class="container-fluid" id="most_search_collection">
+    <div id="blog_post">
+        <h3>Recently viewed </h3>
+        <a href=""> </a>
+    </div>
+
+    <div class="row" id="feature_product_body">
+        <div class="col-md-2 col-lg-2 border border-right-0 p-0" id="main_Side_Story">
+            <div id="Recently">
+                <img src="./images/lock/16047_212__2_b04238d0-08da-4319-8cdd-893df4bc15ef_1024x.jpg"
+                    alt="">
+                <div id="setText_Recently">
+                    <small>JBL</small>
+                    <br>
+                    <a href="">JBL Clip 3 Portable Waterproof Wireless Bluetooth Speaker</a>
+
+                    <div class="mt-2" style="display: flex;">
+                        <div
+                            style="width: 10%; height: 20px; background-color: black;margin-left: 0.3rem; ">
+                        </div>
+                        <div
+                            style="width: 10%; height: 20px; background-color:palevioletred;margin-left: 0.3rem;">
+                        </div>
+                        <div
+                            style="width: 10%; height: 20px; background-color:rebeccapurple;margin-left: 0.3rem;">
+                        </div>
+                        <div
+                            style="width: 10%; height: 20px; background-color:aqua;margin-left: 0.3rem;">
+                        </div>
+                        <div
+                            style="width: 10%; height: 20px; background-color:burlywood;margin-left: 0.3rem;">
+                        </div>
+                        <div class="border ml-3"
+                            style="padding: 0.1rem 0.6rem;font-size: 0.8rem;border-radius: 0.5rem;">
+                            +4</div>
+                    </div>
+
+                    <h4>$59.95</h4>
+
+                    <span>
+                        <p id="Recently">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            3 reviews
+                        </p>
+                    </span>
+
+                    <li style="color: green;padding-bottom: 0.9rem;">In stock, 688 units</li>
+
+                </div>
+            </div>
+        </div>
+        <!-- map col -->
+        <div class="col-md-10 col-lg-10 border" id="feature_JBL_story" style="width: 100%;">
+
+        </div>
+
+    </div>
+</div>
+
+<!--end Recently viewed -->
+
+<!--start footer now -->
+
+<div class="container-fluid mt-5">
+
+  <div class=" mt-5" style="padding: 0rem 1rem;">
+
+      <!-- first footer -->
+      <div class="row border-bottom pb-2 mt-5" id="">
+          <div class="col-lg-3 col-xl-3 col-md-3" id="footer_first">
+              <i class="fa-sharp fa-solid fa-box"></i>
+              <h3>
+                  <a href="">Free delivery for $80+ orders</a>
+                  <p>We deliver in 48 hours max!</p>
+              </h3>
+          </div>
+
+          <div class="col-lg-3 col-xl-3 col-md-3" id="footer_first">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <h3>
+                  <a href="">Satisfied or refunded</a>
+                  <p>Free returns within 14 days</p>
+              </h3>
+          </div>
+
+          <div class="col-lg-3 col-xl-3 col-md-3" id="footer_first">
+              <i class="fa-solid fa-user"></i>
+              <h3>
+                  <a href="">We are available 24/7</a>
+                  <p>Contact us by chat, mail, phone</p>
+              </h3>
+          </div>
+
+          <div class="col-lg-3 col-xl-3 col-md-3" id="footer_first">
+              <i class="fa-regular fa-credit-card"></i>
+              <h3>
+                  <a href="">100% Secure payments</a>
+                  <p>Visa, Mastercard, Amex, PayPal</p>
+              </h3>
+          </div>
+
+
+      </div>
+
+      <!-- second footer -->
+      <div class="row pb-2 mt-5" id="">
+          <div class="col-lg-3 col-xl-3 col-md-3" id="footer_second">
+              <ul>
+                  <h3>ABOUT THE STORE</h3>
+                  <li>Our mission statement is to provide the absolute best customer experience
+                      available in the
+                      Audio/Video industry without exception.</li>
+                  <li>A big thank you to <a href="">HiDEF Lifestyle</a> for allowing us to use
+                      their products in this
+                      demo store</li>
+              </ul>
+          </div>
+
+          <div class="col-lg-3 col-xl-3 col-md-3" id="footer_second">
+              <ul>
+                  <h3>POPULAR COLLECTIONS </h3>
+                  <li><a href="">Speakers</a></li>
+                  <li><a href="">Audio Accessories</a></li>
+                  <li><a href="">Headphones</a></li>
+                  <li><a href="">Home Cinema</a></li>
+                  <li><a href="">Sound Bars</a></li>
+                  <li><a href="">LED TVs</a></li>
+              </ul>
+          </div>
+
+          <div class="col-lg-3 col-xl-3 col-md-3" id="footer_second">
+              <ul>
+                  <h3>INFORMATION</h3>
+                  <li><a href="">About us</a></li>
+                  <li><a href="">Brands we distribute</a></li>
+                  <li><a href="">Meet the team</a></li>
+                  <li><a href="">Contact information</a></li>
+                  <li><a href="">FAQ</a></li>
+              </ul>
+          </div>
+
+          <div class="col-lg-3 col-xl-3 col-md-3" id="footer_second">
+              <ul>
+                  <h3>OUR NEWSLETTER</h3>
+                  <li>Subscribe to get notified about product launches, special offers and news.
+                  </li>
+                  <input type="text" placeholder="Your email">
+              <br>
+              <button>Subscribe</button>
+              </ul>
+              
+          </div>
+
+
+      </div>
+
+
+      <!-- thred footer -->
+      <div class="row pb-2 mt-5" id="">
+          <div class="col-lg-4 col-xl-4 col-md-4" id="footer_second">
+              <ul>
+                  <h3>United States (USD $)</h3>
+                  <li>© 2023 Warehouse - Metal <br>
+                      Powered by Shopify</li>
+              </ul>
+          </div>
+
+          <div class="col-lg-4 col-xl-4 col-md-4" id="footer_second">
+              <div class="mt-4">
+                  <h3>Follow Us</h3>
+                  <span id="review_link">
+                      <i class="fa-brands fa-facebook"></i>
+                      <i class="fa-brands fa-product-hunt"></i>
+                      <i class="fa-brands fa-twitter"></i>
+                      <i class="fa-solid fa-envelope"></i>
+                  </span>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-xl-4 col-md-4" id="footer_second">
+              <ul class="mt-3" id="footer_card">
+                  <h3>We Accept</h3>
+                  <i class="fa-brands fa-cc-visa"></i>
+                  <i class="fa-brands fa-cc-discover"></i>
+                  <i class="fa-brands fa-cc-amex"></i>
+                  <i class="fa-brands fa-cc-paypal"></i>
+                  <i class="fa-brands fa-cc-diners-club"></i>
+                  <i class="fa-brands fa-cc-mastercard"></i>
+              </ul>
+          </div>
+
+
+
+
+      </div>
+
+  </div>
+</div>
+
+<!--end footer now -->
+
+
+<script>
+  var closeBtn = document.querySelector('.close');
+  closeBtn.addEventListener('click', function () {
+    var modal = this.parentElement;
+    modal.style.display = 'none';
+  });
+
+</script>
+
+
+</body>
+
+</html>

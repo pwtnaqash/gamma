@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .product-small-img img{ 
+            height: 92px ;
+            margin: 10px 0;
+            cursor: pointer;
+            display: block ;
+        }
+        .product-small-img img:hover{
+            opacity: 0.1;
+         }
+        .product{
+            top: 50%;
+            left: 50%;
+            transition: translate(-50%, -50%);
+            position: absolute;
+        }
+        .img-countainer img{
+            height: 500px;
+            float: right;
+            padding: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="product">
+        <div class="product-small-img">
+
+            <div class="image-bg"></div>
+            <img src="dumbbell.png" alt="" onclick="myFunction(this)">           
+            <img src="larki.png" alt="" onclick="myFunction(this)" >           
+            <img src="logo.jpg" alt="" onclick="myFunction(this)" >           
+            <img src="rack.png" alt="" onclick="myFunction(this)" >           
+            <img src="slide1.jpg" alt="" onclick="myFunction(this)" >           
+
+        </div>
+
+        <div class="img-countainer">
+            <img id="imgBox" src="dumbbell.png" alt=""> 
+        </div>
+    </div>
+
+    <script>
+            let  myFunction = (smallImg) => {
+               let FullImg = document.getElementById("imgBox");
+               FullImg.src = smallImg.src
+            }
+
+
+    </script>
+
+
+
+</body>
+</html>

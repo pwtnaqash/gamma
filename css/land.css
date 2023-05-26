@@ -1,0 +1,1114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_page{
+    background-color: black;
+    /* padding: 4rem 0rem; */
+    text-align: center;
+}
+.setPhon_img{
+    width: 100%;
+}
+.setPhon_img img{
+    width: 80%;
+    height: 180vh;
+    padding: 4rem 0rem;
+    border-radius: 0.5rem !important;
+}
+
+/* back img and text */
+
+.back-img_text{
+    background-image: url('../images/LandingPage/bottom_img.png');
+    width: 100%;
+    height: 238vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.back-img_text h2{
+    width: 60% !important;
+    text-align: start;
+    font-size: 3rem !important;
+    color:rgb(148, 26, 235);
+}
+
+/* second img set */
+.back-img_text_bottom{
+    background-image: url('../images/LandingPage/aa.png');
+    width: 100%;
+    height: 220vh !important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.mob_img {
+    /* background-color: aqua; */
+    width: 100%;
+}
+.mob_img img{
+    width: 100%;
+    height: 100vh;
+}
+#set_text{
+    text-align: start !important;
+}
+#set_text h2{
+    width: 58%;
+    letter-spacing: 0.1rem;
+    font-size: 11rem;
+    font-weight: 700;
+}
+
+#set_text h3{
+    width: 56%;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+#set_text h4{
+    width: 56%;
+    letter-spacing: 0.1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+#set_link{
+    width: 56%;
+    margin-top: 2rem;
+}
+#set_link a{
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 4rem;
+    color: black;
+}
+#set_link i{
+    font-size: 1.4rem;
+}
+
+
+/* second mob */
+
+#second_mob{   
+    width: 100%; 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.iner_mob{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+#set_link li{
+    list-style-type: none;
+    color: silver;
+    font-size: 1.5rem;
+    text-align: start;
+    padding-left: 2rem;
+}
+#text_mob{
+    display: flex;
+    justify-content: center;
+}
+.set_text_mob{
+    width: 48%;
+    margin-top: 2rem;
+    padding-top: 6rem;
+}
+
+#text_mob h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    text-align:start;
+}
+#text_mob h4{
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    color: silver;
+    text-align:start;
+}
+
+
+/* apple logo */
+
+#apple_logo{
+    display: flex;
+    justify-content: center;
+}
+.set_apple_log{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    padding: 1rem 0rem;
+    width: 74%;
+    margin-top: 2rem;
+}
+.set_apple_log h4{
+    width: 40%;
+    text-align: start;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: silver;
+}
+.set_apple_log i{
+  font-size: 2rem;
+  color: white;
+}
+.set_apple_log img{
+    width: 20%;
+}
+
+/* video mob */
+#main_video{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.video_mob{
+    padding: 1rem 0rem;
+    width: 74%;
+    margin-top: 16rem;
+    display: flex;
+    justify-content: center;
+}
+
+.video_mob h2{
+    width: 55%;
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: silver;
+    /* text-align: start; */
+}
+.video_mob_play {
+    margin-top: 4rem;
+}
+.video_mob_play img{
+    width: 70%;
+}
+.video_mob_play button{
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    font-family: italic;
+    padding-bottom: 2rem;
+}
+.video_btn_bottom{
+    padding: 6rem;
+    display: flex;
+    text-align: end;
+    justify-content: end;
+    color: white;
+}
+.video_btn_bottom h2{
+    font-size: 1.4rem;
+    font-weight: 700;
+    width: 25%;
+    padding: 1rem;
+}
+.video_btn_bottom h3{
+    background-color: rgb(251, 26, 243);
+    height: 70px;
+    width: 70px;
+    margin-top: 2rem;
+    padding-right: 1.3rem;
+    padding-top: 1.1rem;
+    border-radius: 3rem;
+}
+
+
+/* alway on display */
+
+#alway_text{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.alway_imgs{
+    margin-top: 16rem;
+}
+.alway_imgs h2{
+    font-size: 5rem;
+    font-weight: 700;
+    color: silver;
+}
+.alway_img {
+    margin-top: 4rem;
+}
+
+#imG_text{
+    padding: 3rem;
+    margin-top: 4rem;
+}
+#imG_text h6{
+    font-size: 1.6rem;
+    margin-top: 3rem;
+    font-weight: 600;
+    color: white;
+    text-align: start;
+}
+#imG_text h1{
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: 700;
+    color:palevioletred;
+    text-align: start;
+}
+
+#imG_text p{
+    font-size: 2rem;
+    font-weight: 700;
+    color:silvers;
+    text-align: start;
+}
+
+
+/* slider and img */
+#slider_img{
+    display: flex;
+    justify-content: center;
+    margin-top: 12rem;
+}
+.inner_siler{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    width: 74%;
+    margin-top: 2rem;
+}
+#slider_text{
+    margin-top: 1rem;
+    padding: 2rem !important;
+}
+#slider_text h3{
+    font-size: 4rem;
+    text-align: start;
+    font-weight: 700;
+    color: white;
+}
+
+#slider_text h6{
+    font-size: 2rem;
+    padding-right: 1rem;
+    padding-top: 2.3rem;
+    text-align: start;
+    font-weight: 700;
+    color: silver;
+}
+#silder_img_set img{
+    width: 200%;
+    height: 100vh;
+    border-radius: 0.5rem;
+}
+
+
+
+/* start session two */
+.session_two_mob{
+    margin-top: 22rem;
+    width: 100%;
+}
+.session_two_mob img{
+    width: 100%;
+}
+.session_two_mob h2{
+    font-size: 2.5rem;
+    padding: 0rem 18rem;
+    text-align: start;
+    font-weight: 600;
+    color: silver;
+}
+.session_two_mob h1{
+    font-size: 11rem;
+    font-weight: 700;
+    color: rgb(255, 145, 0);
+}
+.second_session_video {
+    margin-top: 8rem;
+    /* background-color: aqua; */
+}
+.second_session_video h2{
+    text-align: start;
+    color: white;
+    font-size: 5rem;
+    text-transform: capitalize;
+    font-weight: 800;
+    padding: 1rem 9rem;
+}
+#sTwo_text{
+    margin-top:9rem;
+    text-align: start;
+    padding: 0rem 13rem;
+}
+.inner_text-sTwo h1{
+    font-size: 6rem;
+    color: silver;
+    font-weight: 700;
+}
+
+.inner_text-sTwo h2{
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    width: 70%;
+    color: silver;
+    font-weight: 700;
+}
+
+.STwo_img{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    width: 74%;
+    margin-top: 2rem;
+}
+#STwo_text_i{
+    padding: 1rem 3rem ;
+}
+#STwo_text_i h6{
+    text-align: start;
+    color: silver !important;
+    font-size:3.8rem !important;
+    font-weight: 800 !important;
+}
+#STwo_text_i h5{
+    padding-top: 2rem;
+    text-align: start;
+    color: silver !important;
+    font-size:2rem !important;
+    font-weight: 700 !important;
+}
+#massively_session{
+    margin-top: 9rem;
+    padding: 1rem 17rem;
+}
+#STwo_massively img{
+    width: 100%;
+    /* height: 170vh; */
+}
+#STwo_massively h2{
+    font-size: 4rem;
+    font-weight: 700;
+    color: silver;
+    text-align: start;
+}
+
+#STwo_massively h1{
+    font-size: 9rem;
+    text-align: start;
+    font-weight: 700;
+    color: silver;
+}
+#STwo_massively h1 span{
+    padding-left: 4rem !important;
+}
+#STwo_massively h4{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: silver;
+    text-align: start;
+    padding-left: 5rem;
+    width: 65%;
+}
+.sessionTwo_more{
+    margin-top: 22rem;
+}
+.sessionTwo_more h1{
+    font-size: 6rem;
+    color: silver;
+    font-weight: 700;
+}
+.img_STwo{
+    padding-top: 6rem;
+}
+.inner-STwo_img img{
+    width: 100%;
+}
+.inner-STwo_img h4{
+    padding: 1rem 6rem;
+    color: silver;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: start;
+}
+.inner-STwo_img h3{
+    padding: 0rem 6rem;
+    color: rgb(198, 6, 202);
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: start;
+}
+#better{
+    color: rgb(238, 109, 240);
+}
+
+#STwo_text_Push{
+    padding: 3rem ;
+    /* align-items: center; */
+}
+#STwo_text_Push h5{
+    padding-top: 11rem;
+    text-align: start;
+    color: silver !important;
+    font-size:2rem !important;
+    font-weight: 700 !important;
+}
+
+#apple_logo_STWO{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+}
+#apple_logo_STWO1{
+    padding: 0rem 10rem;
+}
+#apple_logo_STWO1 img{
+    margin-top: -14rem;
+    width: 100%;
+}
+#STwo_text_Push_second {
+    padding:0rem 2rem;
+    text-align: start;
+}
+#STwo_text_Push_second h5{
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding-top: 1rem;
+    color: silver;
+}
+
+#STwo_text_Push_second h6{
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-top: 2rem;
+    color: rgba(192, 192, 192, 0.582);
+}
+
+#STwo_text_Push_second h3{
+    font-size: 1.9rem;
+    font-weight: 700;
+    padding-top: 2rem;
+    color: rgba(248, 85, 242, 0.902);
+}
+
+#mainSession_gril{
+    margin-top: 9rem;
+}
+.main_grilSTwo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.main_grilSTwo img{
+    width: 60%;
+}
+.main_grilSTwo h3{
+    font-size: 2rem;
+    text-align: start;
+    font-weight: 600;
+    color: silver;
+    width: 60%;
+    padding:2rem 16rem 2rem 0rem;
+}
+#text_STwoGril{
+    padding: 0rem;
+}
+#text_STwoGril h4{
+    font-size: 1.6rem;
+    text-align: start;
+    padding: 1rem;
+    margin: 0rem;
+    color: silver;
+}
+
+#text_STwoGril h3{
+    font-size: 2rem;
+    color: blueviolet;
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem;
+}
+.thred_video{
+    margin-top: 8rem;
+    padding: 4rem;
+}
+.thred_video h2{
+    font-size: 6rem;
+    font-weight: 600;
+    color: silver;
+    text-align: center;
+}
+
+.thred_video h5{
+    font-size: 2.4rem;
+    padding: 2rem 0rem;
+    text-align: end;
+    font-weight: 600;
+    color: silver;
+}
+#thred_vieo_text{
+    margin-top: 3rem;
+    padding: 2rem;
+}
+#thred_vieo_text h4{
+    text-align: end;
+    font-size: 2.6rem;
+    color: silver;
+    font-weight: 600;
+}
+#thred_vieo_text h5{
+    text-align: start;
+    font-size: 2.2rem;
+    padding: 0rem 2rem;
+    color: rgb(234, 50, 227);
+    font-weight: 600;
+}
+
+#thred_vieo_text h6{
+    text-align: start;
+    font-size: 1.7rem;
+    padding: 0rem 2rem;
+    color: silver;
+    font-weight: 600;
+}
+
+#main_Telephoto{
+    margin-top: 10rem;
+    padding: 0rem 12rem;
+    text-align: start;
+    color: white;
+}
+#main_Telephoto img{
+    width: 100%;
+}
+#main_Telephoto_list{
+    border-bottom: 1px solid white;
+    margin-top: 5rem;
+}
+#main_Telephoto_list1{
+    border-bottom: 1px solid white;
+}
+
+#main_Telephoto_list h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#main_Telephoto_list h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem 0rem;
+}
+#main_Telephoto_ul li{
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: silver;
+    padding: 0.3rem 0rem;
+    font-weight: 600;
+}
+#Main_threeGril{
+    margin-top: 14rem;
+    width: 100%;
+}
+#Main_threeGril img{
+    width: 100%;
+}
+
+#Threeimg_text h1{
+    font-size: 5rem;
+    text-align: end;
+    font-weight: 800;
+    color: silver;
+}
+
+#Threeimg_text1 h1{
+    font-size: 2.2rem;
+    text-align: start;
+    font-weight: 700;
+    padding: 2rem 2rem;
+    color: silver;
+}
+.ThreeGrilText{
+    text-align: start;
+    padding: 2rem 18rem;
+}
+.ThreeGrilText h5{
+    color: silver;
+    font-size:2rem;
+    font-weight: 600;
+}
+.ThreeGrilText h2{
+    color:rgb(239, 53, 243);
+    font-size:2rem;
+    font-weight: 600;
+}
+
+
+/* footer */
+
+.main_footer{
+    margin-top: 10rem;
+    padding-bottom: 2rem !important;
+    padding: 0rem 10rem;
+}
+#inner_footer{
+    border-top: 1px solid white;
+    padding: 2rem 0rem;
+}
+.set_footer h2{
+    text-align: start !important;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+}
+.set_footer li{
+    list-style-type: none;
+    text-align: start;
+    font-size: 0.9rem;
+    color:  silver;
+    padding: 0.3rem 0rem;
+}
+.main_footer h5{
+    text-align: start;
+    font-size: 1.1rem;
+    color: silver;
+    padding: 0.5rem 0rem;
+}
+
+.main_footer h6{
+    border-top: 1px solid silver;
+    text-align: start;
+    font-size: 1.1rem;
+    padding: 0.5rem 0rem;
+    color: silver;
+}
+#set_text_title{
+    font-size: 8rem;
+}
+
+#STwo_img_iimg{
+    width: '100%';
+}
+#STwo_img_iimg img{
+    width: 100%;
+}
+
+#STwo_img1_inner{
+    width: 100%;
+}
+#STwo_img1_inner img{
+    width: 100%;
+}
+
+
+
+
+
+
+@media (min-width: 280px) and (max-width:540px){
+    .setPhon_img img{
+        width: 90%;
+        height: 90vh;
+        padding: 2rem 0rem;
+    }
+    .back-img_text h2{
+        width: 100% !important;
+        font-size: 2rem !important;
+    }
+    .back-img_text{
+        background-image: url('../images/LandingPage/bottom_img.png');
+        width: 100%;
+        height: 100vh !important;
+    }
+    #set_text_title{
+        font-size: 3rem;
+        background-color: aqua;
+    }
+    #set_text h2{
+        width: 100%;
+        letter-spacing: 0.1rem;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .back-img_text_bottom{
+        background-image: url('../images/LandingPage/aa.png');
+        width: 100%;
+        height: 140vh !important;
+        padding-top:10rem;
+    }
+    #set_link{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    #set_link a{
+        text-decoration: none;
+        margin-right: 0rem;
+    }
+    #set_text h3{
+        width: 100%;
+    }
+    #set_text h4{
+        width: 100%;
+    }
+    .iner_mob{
+        width: 80%;
+    }
+    #set_link a{
+        display: block;
+    }
+    .set_text_mob{
+        width: 100%;
+        margin-top: 2rem;
+        padding-top: 6rem;
+    }
+    .set_apple_log{
+        width: 100%;
+    }
+    .set_apple_log h4{
+        width: 60%;
+        text-align: start;
+        padding-top: 0.1rem;
+    }
+    .video_mob{
+        padding: 1rem 0rem;
+        width: 100%;
+        margin-top: 10rem;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .video_mob h2{
+        width: 100%;
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: silver;
+        /* text-align: start; */
+    }
+    .video_mob_play {
+        margin-top: 4rem;
+    }
+
+    .video_btn_bottom{
+        padding: 1rem;
+        display: flex;
+        text-align: end;
+        justify-content: end;
+        color: white;
+    }
+    .video_btn_bottom h2{
+        width: 100%;
+        padding: 1rem;
+    }
+    .alway_imgs{
+        margin-top: 7rem;
+    }
+    .alway_imgs h2{
+        font-size: 2rem;
+        font-weight: 700;
+        color: silver;
+    }
+    .inner_siler{
+        display: block;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    #slider_text{
+        margin-top: 1rem;
+        padding: 2rem !important;
+    }
+    #slider_text h3{
+        font-size: 1.7rem;
+    }
+
+    #slider_text h6{
+        font-size: 1.7rem;
+    }
+    .session_two_mob{
+        margin-top: 12rem;
+        width: 100%;
+    }
+    .session_two_mob h2{
+        font-size: 2.5rem;
+        padding: 0rem 2rem;
+        text-align: start;
+        font-weight: 600;
+        color: silver;
+    }
+    .session_two_mob h1{
+        font-size: 2.7rem;
+        margin-top: 2rem;
+        font-weight: 700;
+        color: rgb(255, 145, 0);
+    }
+    .session_two_mob img{
+        width: 70% !important;
+    }
+    .second_session_video h2{
+        text-align: start;
+        color: white;
+        font-size: 3rem;
+        text-transform: capitalize;
+        font-weight: 800;
+        padding: 1rem;
+    }
+    #sTwo_text{
+        margin-top:9rem;
+        text-align: start;
+        padding: 0rem 1rem;
+    }
+    .inner_text-sTwo h1{
+        font-size: 3rem;
+        color: silver;
+        font-weight: 700;
+    }
+    
+    .inner_text-sTwo h2{
+        font-size: 1.5rem;
+        padding-top: 2rem;
+        width: 100%;
+        color: silver;
+        font-weight: 700;
+    }
+    #STwo_text_i{
+        padding: 1rem ;
+    }
+    #STwo_text_i h6{
+        text-align: start;
+        color: silver !important;
+        font-size:2.8rem !important;
+        font-weight: 800 !important;
+    }
+    #STwo_text_i h5{
+        padding-top: 2rem;
+        text-align: start;
+        color: silver !important;
+        font-size:2rem !important;
+        font-weight: 700 !important;
+    }
+    .STwo_img{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 0rem;
+        width: 100%;
+        margin-top: 2rem;
+    }
+    #massively_session{
+        margin-top: 9rem;
+        padding: 1rem 2rem;
+    }
+    #STwo_massively img{
+        width: 100%;
+        /* height: 170vh; */
+    }
+    #STwo_massively h2{
+        font-size: 3rem;
+        font-weight: 700;
+        color: silver;
+        text-align: start;
+    }
+    
+    #STwo_massively h1{
+        font-size: 4rem;
+        text-align: start;
+        font-weight: 700;
+        color: silver;
+    }
+    #STwo_massively h1 span{
+        padding-left: 1rem !important;
+    }
+    #STwo_massively h4{
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: silver;
+        text-align: start;
+        padding-left: 0rem;
+        width: 100%;
+    }
+    .inner-STwo_img h4{
+        padding: 1rem;
+        color: silver;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: start;
+    }
+    .inner-STwo_img h3{
+        padding: 0rem;
+        color: rgb(198, 6, 202);
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: start;
+    }
+    .sessionTwo_more{
+        margin-top: 10rem;
+    }
+    .sessionTwo_more h1{
+        text-align: start;
+        font-size: 3rem;
+        color: silver;
+        font-weight: 700;
+    }
+    
+#STwo_text_Push{
+    padding: 1rem ;
+    /* align-items: center; */
+}
+#STwo_text_Push h5{
+    padding-top: 7rem;
+    text-align: start;
+    color: silver !important;
+    font-size:2rem !important;
+    font-weight: 700 !important;
+}
+#STwo_text_Push_second {
+    padding:0rem 1rem;
+    text-align: start;
+}
+.main_grilSTwo img{
+    width: 100%;
+}
+.main_grilSTwo h3{
+    font-size: 1.4rem;
+    text-align: start;
+    font-weight: 600;
+    color: silver;
+    width: 100%;
+    padding:1rem;
+}
+#text_STwoGril{
+    padding: 1rem;
+}
+#text_STwoGril h4{
+    font-size: 1.6rem;
+    text-align: start;
+    padding: 0rem;
+    margin: 0rem;
+    color: silver;
+}
+
+#text_STwoGril h3{
+    font-size: 1.6rem;
+    color: blueviolet;
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem;
+}
+.thred_video{
+    margin-top: 8rem;
+    padding: 1rem;
+}
+.thred_video h2{
+    font-size: 3rem;
+    font-weight: 600;
+    color: silver;
+    text-align: center;
+    text-align:start;
+}
+
+.thred_video h5{
+    font-size: 2rem;
+    padding: 2rem 0rem;
+    text-align: end;
+    font-weight: 600;
+    color: silver;
+}
+#thred_vieo_text{
+    margin-top: 3rem;
+    padding: 1rem;
+}
+#thred_vieo_text h4{
+    text-align: end;
+    font-size: 2rem;
+    color: silver;
+    font-weight: 600;
+}
+#thred_vieo_text h5{
+    text-align: start;
+    font-size: 2rem;
+    padding: 0rem 1rem;
+    color: rgb(234, 50, 227);
+    font-weight: 600;
+}
+
+#thred_vieo_text h6{
+    text-align: start;
+    font-size: 1.7rem;
+    padding: 0rem 1rem;
+    margin-top: 2rem;
+    color: silver;
+    font-weight: 600;
+}
+#main_Telephoto{
+    margin-top: 10rem;
+    padding: 0rem 1rem;
+    text-align: start;
+    color: white;
+}
+#main_Telephoto img{
+    width: 100%;
+}
+#Threeimg_text h1{
+    font-size: 3rem;
+    text-align: end;
+    font-weight: 800;
+    color: silver;
+}
+
+#Threeimg_text1 h1{
+    font-size: 2rem;
+    text-align: start;
+    font-weight: 700;
+    padding: 2rem 2rem;
+    color: silver;
+}
+.ThreeGrilText{
+    text-align: start;
+    padding: 2rem 1rem;
+}
+#apple_logo_STWO1{
+    padding: 0rem 1rem;
+}
+#apple_logo_STWO1 img{
+    margin-top: 0.1rem;
+    width: 100%;
+}
+.main_footer{
+    margin-top: 10rem;
+    padding-bottom: 2rem !important;
+    padding: 0rem 1rem;
+}
+}
+
+
+
+
+
+
+
+
+/* @media screen and (min-width: 281px){
+    .back-img_text h2{
+        width: 90% !important;
+        text-align: start;
+        font-size: 1.5rem !important;
+        color:rgb(148, 26, 235);
+    }
+    .back-img_text{
+        background-image: url('../images/LandingPage/bottom_img.png');
+        width: 100%;
+        height: 70vh;
+    }
+} */

@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamma Gym</title>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/cardHover.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/productAll.css">
+
+    <!-- bootstrap cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- fontawsome -->
+    <script src="https://kit.fontawesome.com/6286729677.js" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body id="main_body">
+
+    <!-- gamma navbar -->
+    <div>
+        <div class="container-fluid p-0" id="main_head_nav">
+
+            <!-- header -->
+            <header>
+                <div class="" id="main_header">
+                    <div class="head-left">
+                        <p>customer care 9501189896</p>
+                    </div>
+                    <div>
+                        <ul class="head-right">
+                            <li>
+                                <a href=""><i class="fa-solid fa-clipboard"></i> project gallery</a>
+                            </li>
+                            <li>
+                                <div id="liginandSignUp_modal">
+
+                                    <!-- Button trigger modal -->
+                                    <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                                            class="fa-solid fa-user"></i> login/signup</a>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content" style="padding: 1rem;">
+                                                <div class="container" id="main_login">
+                                                    <form id="inner__signin_modal">
+                                                        <div id="img_con">
+                                                            <img src="../../Bilal//Gamma/frontend/login/logo.jpg"
+                                                                width="120px" height="120px" alt="login form"
+                                                                style="padding-bottom: 0.8rem;" />
+
+                                                        </div>
+                                                        <!-- Email input -->
+                                                        <div class="form-outline mb-4">
+                                                            <label class="form-label" for="form2Example1">Email
+                                                                address</label>
+                                                            <input type="email" id="form2Example1"
+                                                                class="form-control" />
+                                                        </div>
+
+                                                        <!-- Password input -->
+                                                        <div class="form-outline mb-4">
+                                                            <label class="form-label"
+                                                                for="form2Example2">Password</label>
+                                                            <input type="password" id="form2Example2"
+                                                                class="form-control" />
+                                                        </div>
+
+                                                        <!-- 2 column grid layout for inline styling -->
+                                                        <div class="row mb-4">
+                                                            <div class="col d-flex justify-content-center">
+                                                                <!-- Checkbox -->
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="form2Example31" checked />
+                                                                    <label class="form-check-label"
+                                                                        for="form2Example31"> Remember me </label>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col">
+                                                                <!-- Simple link -->
+                                                                <a href="#!" style="color: #1e2d7d;"> Forgot
+                                                                    password?</a>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Submit button -->
+                                                        <button id="Submit_btn" type="button"
+                                                            class="btn btn-primary btn-block mb-4">Sign in</button>
+
+                                                        <!-- Register buttons -->
+                                                        <div class="text-center">
+                                                            <p>Not a member? <a style="color:#1e2d7d;" href="#"
+                                                                    data-bs-toggle="modal"
+                                                                    data-bs-target="#exampleModalsignUp">sign up
+                                                                </a></p>
+                                                            <!-- <p>or sign up with:</p> -->
+                                                            <button type="button"
+                                                                class="btn btn-link btn-floating mx-1">
+                                                                <i class="fab fa-facebook-f"></i>
+                                                            </button>
+
+                                                            <button type="button"
+                                                                class="btn btn-link btn-floating mx-1">
+                                                                <i class="fab fa-google"></i>
+                                                            </button>
+
+                                                            <button type="button"
+                                                                class="btn btn-link btn-floating mx-1">
+                                                                <i class="fab fa-twitter"></i>
+                                                            </button>
+
+                                                            <button type="button"
+                                                                class="btn btn-link btn-floating mx-1">
+                                                                <i class="fab fa-github"></i>
+                                                            </button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <div class="modal fade" id="exampleModalsignUp" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="container" id="main__signUp">
+                                            <form id="inner_signUp_modal">
+                                                <div id="img_con">
+                                                    <img src="../../Bilal/Gamma/frontend/signUp/logo.jpg" width="120px"
+                                                        height="120px" alt="login form"
+                                                        style="padding-bottom: 0.8rem;" />
+
+                                                </div>
+                                                <!-- name input -->
+                                                <div class="form-outline mb-4">
+                                                    <label class="form-label" for="form2Example1">Name</label>
+                                                    <input type="email" id="form2Example1" class="form-control" />
+                                                </div>
+                                                <!-- Email input -->
+                                                <div class="form-outline mb-4">
+                                                    <label class="form-label" for="form2Example1">Email address</label>
+                                                    <input type="email" id="form2Example1" class="form-control" />
+                                                </div>
+                                                <!-- phone input -->
+
+                                                <div class="form-outline mb-4">
+                                                    <label class="form-label" for="form2Example1">Phone</label>
+                                                    <input type="email" id="form2Example1" class="form-control" />
+                                                </div>
+                                                <!-- country input -->
+                                                <div class="form-outline mb-4">
+                                                    <label class="form-label" for="form2Example1">country</label>
+                                                    <input type="email" id="form2Example1" class="form-control" />
+                                                </div>
+
+                                                <!-- Password input -->
+                                                <div class="form-outline mb-4">
+                                                    <label class="form-label" for="form2Example2">Password</label>
+                                                    <input type="password" id="form2Example2" class="form-control" />
+                                                </div>
+
+                                                <!-- Submit button -->
+                                                <button id="Submit_btn" type="button"
+                                                    class="btn btn-primary btn-block mb-4">Sign Up</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+                            <li>
+                                <a href=""><i class="fa-brands fa-jedi-order fa-beat"></i>my orders</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-solid fa-envelope"></i> get in touch</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+
+            <!-- xxl nav -->
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid" id="nav_set">
+                    <a class="navbar-brand" href="#" id="navlogo">
+                        <div>
+                            <img src="../images/logo.jpg" alt="" />
+                        </div>
+                        <div>
+                            <h4>Gamma <br> <span id="fitness"> fitness </span></h4>
+                        </div>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <form class="d-flex" role="search" id="search">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn" type="submit">Search</button>
+                        </form>
+
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item" id="nav_btn">
+                                <a class="nav-link active" aria-current="page" href="#"><i
+                                        class="fa-regular fa-heart"></i>
+                                    wishlish</a>
+                            </li>
+                            <li class="nav-item" id="nav_btn">
+
+                                <div id="getCall_request">
+                                    <!-- Button trigger modal -->
+                                    <!-- <button type="button" class="btn btn-primary">
+                                           Get a Call
+                                        </button> -->
+                                    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModalgetcall"
+                                        href="#"><i class="fa-solid fa-phone-volume"></i> get a
+                                        call</a>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalgetcall" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content" id="main_callGet">
+                                                <h5 class="modal-title" id="exampleModalLabel">call back request</h5>
+                                                <div class="row">
+                                                    <!-- Email input -->
+                                                    <div class="col-md-6 form-outline mb-4">
+                                                        <label class="form-label" for="form2Example1">name</label>
+                                                        <input type="email" id="form2Example1"
+                                                            placeholder="Customer Name" class="form-control" />
+                                                    </div>
+
+                                                    <!-- Password input -->
+                                                    <div class="col-md-6 form-outline mb-4">
+                                                        <label class="form-label" for="form2Example2">mobile</label>
+                                                        <input type="number" id="form2Example2" placeholder="Contact"
+                                                            class="form-control" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-outline mb-4">
+                                                    <label class="form-label" for="form2Example2">message</label>
+                                                    <br>
+                                                    <textarea name="" placeholder="i need some information"
+                                                        id="textaea_getCall" cols="" rows="4"></textarea>
+                                                </div>
+
+                                                <button type="submit">submit request</button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </li>
+
+
+                            <li class="nav-item" id="shoping">
+                                <div class="hover-area">
+                                    <a class="nav-link"><i class="fa-solid fa-cart-plus fa-beat"></i></a>
+                                    <div class="hover-popup" style="background-color: white">
+                                        <section>
+                                            <div id="first_Div">
+                                                <div id="setimg">
+                                                    <img src="../images/bag.jpg" alt="">
+                                                </div>
+                                                <div>
+                                                    <h6>product name</h6>
+                                                    <p>1 X $225 </p>
+                                                </div>
+                                                <div id="cross_btn">X</div>
+                                            </div>
+
+                                            <div id="first_Div">
+                                                <div id="setimg">
+                                                    <img src="../images/bag.jpg" alt="">
+                                                </div>
+                                                <div>
+                                                    <h6>product name</h6>
+                                                    <p>1 X $225 </p>
+                                                </div>
+                                                <div id="cross_btn">X</div>
+                                            </div>
+
+                                            <div class="total">
+                                                <div>total</div>
+                                                <div>$555</div>
+                                            </div>
+
+                                            <div id="hover_btn">
+
+                                                <button type="submit" id="btn_check"><a
+                                                        href="../../Bilal/Gamma/frontend/cart/addTocart/cart.html">view
+                                                        cart</a></button>
+                                                <button type="submit" id="btn_check">check out</button>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+
+            <!-- small nav -->
+
+            <div class="pb-2" id="small_nav_set">
+                <div style="width:100%;display: flex;justify-content: space-between;padding: 0rem 1rem;">
+                    <li>
+                        <a class="navbar-brand" href="#" id="navlogo">
+                            <div>
+                                <img src="../images/logo.jpg" alt="" />
+                            </div>
+                            <div>
+                                <h4>Gamma <br> <span id="fitness">fitness</span></h4>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="nav-item" id="small-shopping">
+                        <a class="nav-link"><i class="fa-solid fa-cart-plus fa-beat"></i></a>
+                    </li>
+                </div>
+                <form class="d-flex mt-2 " role="search" id="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn" type="submit">Search</button>
+                </form>
+
+            </div>
+        </div>
+
+        <!-- second nav -->
+        <nav class="navbar navbar-expand-lg" id="second_nav">
+            <div class="container-fluid py-2">
+                <div id="second_nav_list">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <i class="fa-solid fa-video"></i>
+                    </a>
+                    <a class="nav-link" href="#"><i class="fa-solid fa-phone-volume"></i></a>
+
+                </div>
+                <span class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon text-warning"></span> -->
+                    <i class="fa-solid fa-bars" style="color:white"></i>
+                </span>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#">strength training equipment</a>
+                        <a class="nav-link" href="#">cardio equipment</a>
+                        <a class="nav-link" href="">gym machine</a>
+                        <a class="nav-link" href="">outdoor & playground items</a>
+                        <a class="nav-link" href="">dumbbells, rods & plates</a>
+                        <a class="nav-link" href="">crossfit</a>
+                        <a class="nav-link" href="">racks</a>
+                        <a class="nav-link" href="">accessories</a>
+                        <a class="nav-link" href="">home gym packages</a>
+                        <a class="nav-link" href="">flooring</a>
+                        <a class="nav-link" href="">home gym setup</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+    </div>
+
+    <!--end gamma navbar -->
+
+    <!-- product grid -->
+
+    <div class="container-fluid">
+        <div class="row" id="main_grid">
+            <div class="col-md-3" id="main_collection">
+                <h2>collections</h2>
+
+                <!-- dropdown one -->
+                <div>
+                    <div id="collection" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        <p>Audio (147)</p>
+                        <i class="fa-solid fa-angle-down pb-3"></i>
+                    </div>
+                    <div class="collapse p-0" id="collapseExample">
+                        <div class="p-0">
+                            <ul id="left_list">
+                                <li>
+                                    <a href="">Headphones (75)</a>
+                                </li>
+                                <li>
+                                    <a href="">Earbuds (32)</a>
+                                </li>
+                                <li>
+                                    <a href="">Portable Speakers (30)</a>
+                                </li>
+                                <li>
+                                    <a href="">Turntables (21)</a>
+                                </li>
+                                <li>
+                                    <a href="">Walkmans (2)</a>
+                                </li>
+                                <li>
+                                    <a href="">Audio Accessories (23)</a>
+                                </li>
+                                <li>
+                                    <a href="">See All (147)</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- dropdown two -->
+                <div>
+                    <div id="collection" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        <p>Hi-Fi (183) </p>
+                        <i class="fa-solid fa-angle-down pb-3"></i>
+                    </div>
+                    <div class="collapse p-0" id="collapseExample1">
+                        <div class="p-0">
+                            <ul id="left_list">
+                                <li>
+                                    <a href="">Speakers (77)</a>
+                                </li>
+                                <li>
+                                    <a href="">Subwoofers (13)</a>
+                                </li>
+                                <li>
+                                    <a href="">Sound Bars (18)</a>
+                                </li>
+                                <li>
+                                    <a href="">Amplifiers (18)</a>
+                                </li>
+                                <li>
+                                    <a href="">Home Cinema (146)</a>
+                                </li>
+                                <li>
+                                    <a href="">A/V Receivers (17)</a>
+                                </li>
+                                <li>
+                                    <a href="">See All (183)</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- dropdown three -->
+                <div>
+                    <div id="collection" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        <p>TV & Entertainment (86) </p>
+                        <i class="fa-solid fa-angle-down pb-3"></i>
+                    </div>
+                    <div class="collapse show p-0" id="collapseExample2">
+                        <div class="p-0">
+                            <ul id="left_list">
+                                <li>
+                                    <a href="">LED TVs (29)</a>
+                                </li>
+                                <li>
+                                    <a href="">OLED TVs (32)</a>
+                                </li>
+                                <li>
+                                    <a href="">Projectors (10)</a>
+                                </li>
+                                <li>
+                                    <a href="">Blu-Ray & DVD Players (6)</a>
+                                </li>
+                                <li>
+                                    <a href="">TV Accessories (9)</a>
+                                </li>
+                                <li>
+                                    <a href="">See All (86)</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-md-9" id="inner_product">
+                <div >
+                    <img src="../images/productAll/head1.jfif" alt="">
+
+                    <div id="product_inner-name">
+                        <h2>Earbuds</h2>
+                        <ul id="product_inner-list">
+                            <li>Showing 1 - 24 of 32 products</li>
+                            <li>Display: 24 per page</li>
+                            <li>Sort by: Best selling</li>
+                            <li>view</li>
+                        </ul>
+                    </div>
+
+                    <div class="container-fluid">
+                        <div class="row">
+
+                            <div class="col-md-4" id="inner_col_product">
+                                <a href="./productView.html">
+                                    <img src="../images/productAll/head1.jfif" alt="">
+                                    <div class="title">
+                                        <p>AKG</p>
+                                        <a href="">AKG N20U Premium In-Ear Headphones</a>
+                                        <h4>$112.95</h4>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            3 reviews
+                                        </div>
+
+                                        <div id="inner_btn">
+                                            <button><a href="./productView.html">buy now</a></button>
+                                            <button><a href="./land.html">learn more</a></button>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="col-md-4" id="inner_col_product">
+                                <a href="./productView.html">
+                                    <img src="../images/productAll/head1.jfif" alt="">
+                                    <div class="title">
+                                        <p>AKG</p>
+                                        <a href="">AKG N20U Premium In-Ear Headphones</a>
+                                        <h4>$112.95</h4>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            3 reviews
+                                        </div>
+
+                                        <div id="inner_btn">
+                                            <button><a href="./productView.html">buy now</a></button>
+                                            <button><a href="./land.html">learn more</a></button>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="col-md-4" id="inner_col_product">
+                                <a href="./productView.html">
+                                    <img src="../images/productAll/head1.jfif" alt="">
+                                    <div class="title">
+                                        <p>AKG</p>
+                                        <a href="">AKG N20U Premium In-Ear Headphones</a>
+                                        <h4>$112.95</h4>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            3 reviews
+                                        </div>
+
+                                        <div id="inner_btn">
+                                            <button><a href="./productView.html">buy now</a></button>
+                                            <button><a href="./land.html">learn more</a></button>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="col-md-4" id="inner_col_product">
+                                <a href="./productView.html">
+                                    <img src="../images/productAll/head1.jfif" alt="">
+                                    <div class="title">
+                                        <p>AKG</p>
+                                        <a href="">AKG N20U Premium In-Ear Headphones</a>
+                                        <h4>$112.95</h4>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            3 reviews
+                                        </div>
+
+                                        <div id="inner_btn">
+                                            <button><a href="./productView.html">buy now</a></button>
+                                            <button><a href="./land.html">learn more</a></button>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="col-md-4" id="inner_col_product">
+                                <a href="./productView.html">
+                                    <img src="../images/productAll/head1.jfif" alt="">
+                                    <div class="title">
+                                        <p>AKG</p>
+                                        <a href="">AKG N20U Premium In-Ear Headphones</a>
+                                        <h4>$112.95</h4>
+                                        <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            3 reviews
+                                        </div>
+
+                                        <div id="inner_btn">
+                                            <button><a href="./productView.html">buy now</a></button>
+                                            <button><a href="./land.html">learn more</a></button>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
