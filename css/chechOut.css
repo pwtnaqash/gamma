@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main_check_out{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* height: 100vh; */
+    padding: 2rem 0rem;
+    background-color: #eeeeee;
+}
+#main_check_out_inner{
+    width: 80%;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    /* height: 94vh; */
+}
+#col5_check{
+    border-radius: 0.4rem !important;
+    /* width: 100%; */
+    position: relative;
+    /* background-color: rgba(243, 88, 88, 0.178); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border: 1px solid #eeeeee; */
+}
+#col5_check img{
+    width: 100%;
+    height: 35vh;
+    z-index: -1rem;
+    position: absolute;
+    border-radius: 0.4rem;
+    /* margin-top: 2rem; */
+}
+#col5_check button{
+    padding: 0.4rem 2rem;
+    border: 1px solid rgb(161, 39, 35);
+    border-radius: 0.3rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(161, 39, 35);
+    color: white;
+}
+#col5_check button:hover{
+    background-color: rgba(243, 88, 88, 0.178);
+    color: black;
+    border: 1px solid rgb(161, 39, 35);
+    padding: 0.4rem 2rem;
+    border-radius: 0.3rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+#check_out_small{
+    position: relative;
+    display: flex;
+    /* justify-content: space-between; */
+    top: 11rem;
+    margin: 0rem 3rem;
+    background-color: white;
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+}
+#check_out_small img{
+    width: 65px;
+    height: 65px;
+    margin-top: 0rem;
+    background-color: #eeeeee;
+    border-radius: 0.5rem;
+}
+#text-box_check{
+    margin-left: 5rem;
+}
+#text-box_check p{
+    font-weight: 600;
+    color: silver;
+}
+#text-box_check span{
+    font-weight: 700;
+    color: black;
+}
+#check_out_point{
+    margin-top: 13rem;
+}
+#check_out_point ul li{
+    /* list-style-type: none; */
+    font-size: 0.9rem;
+    padding: 0rem 0rem 1rem 0rem;
+}
+
+
+
+/* ////////////////////////////////////////// */
+#checOut_table label{
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#checOut_table textarea{
+    width: 100%;
+    border: 1px solid #eeeeee;
+    border-radius: 0.2rem;
+    height: 21vh;
+    outline: none;
+}
+@media(min-width:280px) and (max-width:540px){
+    #main_check_out{
+        padding: 2rem 1rem;
+    }
+    #main_check_out_inner{
+        padding: 1rem;
+        width: 100%;
+    }
+    #checOut_table{
+        margin-top: 2rem;
+    }
+}

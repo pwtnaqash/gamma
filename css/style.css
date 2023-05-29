@@ -10,6 +10,18 @@ body{
   background-color: white;
 }
 
+#main_cart{
+  background-image: url('../images/shopping-cart.jpg');
+  /* width: 100%;
+  height: 100%; */
+}
+/* #main_cart image{
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+
 
 
 /* cart start  */

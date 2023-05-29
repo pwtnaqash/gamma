@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main_callGet{
+    padding: 2rem;
+    text-transform: capitalize;
+}
+#main_callGet button{
+    padding: 0.5rem;
+    background-color: rgb(202, 30, 24);
+    text-transform: capitalize;
+    color: white;
+    border: none;
+    font-weight: 500;
+    border-radius: 0.4rem;
+    width: 30%  !important;
+}
+#exampleModalLabel{
+    padding-bottom: 1rem;
+    color: rgb(202, 30, 24);
+}
+#textaea_getCall{
+    border: 1px solid #eeeeee;
+    padding: 0.4rem;
+    width: 100%;
+}
+#getCall_request{
+    text-align: start;
+}
+
+
+@media(min-width: 280px)and (max-width: 540px){
+    #main_callGet button{
+        width: 100%  !important;
+    }
+}

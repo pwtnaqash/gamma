@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main_login{
+    padding: 1rem 3rem;
+    border-radius: 0.4rem;
+    /* background-color: #ffffffb0; */
+    /* border: 1px solid red; */
+    /* width: 100% !important; */
+    /* height: 95vh; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#inner__signin_modal{
+ width: 100%;   
+}
+#inner__signin_modal input{
+    padding: 0.4rem !important;
+}
+
+#inner__signin_modal label{
+    font-weight: 500;
+}
+
+#inner__signin_modal button{
+    background-color: rgb(161, 39, 35);
+    border: 1px solid rgb(161, 39, 35);
+    color: white;
+    font-weight: 500;
+}
+
+#inner__signin_modal button:hover{
+    background-color: #ffffffb0;
+    color: rgb(161, 39, 35);
+}
+
+#img_con{
+    text-align: center;
+}
+form{
+    text-align: start;
+}
+#sign_to_sunup p a:hover{
+    text-decoration: underline !important;
+}
+
+.custom-modal {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    animation: slide-in 0.5s forwards;
+  }
+
+  @keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-50%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

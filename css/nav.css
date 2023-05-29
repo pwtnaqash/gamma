@@ -9,6 +9,10 @@
     width: 100%;
 }
 
+#small_nav_set {
+    display: none;
+}
+
 #main_header {
     height: 5vh !important;
     display: flex;
@@ -173,6 +177,9 @@ li {
     #small_nav_set img {
         width: 60px;
         height: 60px;
+    }
+    #small_nav_set {
+        display: block;
     }
 
     #main_header{

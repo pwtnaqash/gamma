@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main__signUp{
+    padding: 1rem 2rem;
+    /* border: 1px solid silver; */
+    border-radius: 0.4rem;
+    /* width: 100% !important; */
+    /* height: 95vh; */
+    /* margin-top: 1rem; */
+    /* margin-bottom: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+#inner_signUp_modal{
+    width: 100% !important;
+}
+#inner_signUp_modal input{
+    padding: 0.4rem !important;
+}
+
+#inner_signUp_modal label{
+    font-weight: 500;
+}
+#inner_signUp_modal button{
+    background-color: rgb(161, 39, 35);
+    border: 1px solid silver;
+    font-weight: 500;
+    color: white;
+    width: 48% ;
+    margin-top: 1rem;
+}
+
+#inner_signUp_modal button:hover{
+    background-color: #ffffffb0;
+    border: 1px solid rgb(161, 39, 35);
+    color: rgb(161, 39, 35);
+    margin-top: 1rem;
+
+}
+
+#img_con{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: start;
+}
+#img_con img{
+    /* color: white; */
+    text-transform:none;
+    font-family: italic;
+    border-radius: 0.3rem;
+    /* background-color: rgba(161, 39, 35, 0.911); */
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    width: 20%;
+    height: 20vh;
+    font-weight: 700;
+}
+form input{
+    text-align: start;
+    padding: 0rem !important;
+}
