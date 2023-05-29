@@ -167,6 +167,15 @@ li {
     text-transform: capitalize;
 }
 
+/* dropdown start */
+
+#navbarNavAltMarkup button{
+    color: white;
+}
+#navbarNavAltMarkup ul li a{
+    color: black !important;
+}
+
 
 
 
